@@ -1,0 +1,98 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dccd: <http://dendro.dans.knaw.nl/dccd-terms/> .
+dccd:projectCategory rdf:type skos:ConceptScheme;
+  dct:title "DCCD TRiDaS Project categories";
+  dct:creator dccd:DCCD.
+dccd:4dcd4d86-2d96-497f-9e09-aacda714aa24 rdf:type skos:Concept;
+  skos:prefLabel "archaeology"@en;
+  skos:prefLabel "archeologie"@nl;
+  skos:prefLabel "Archäologie"@de;
+  skos:prefLabel "archéologie"@fr; 
+  skos:scopeNote "archaeological projects"@en;
+  skos:inScheme dccd:projectCategory.
+dccd:4dcd4d86-2d96-497f-9e09-aacda714aa24 skos:exactMatch aat:300054328.
+dccd:a9ec656f-1bd3-4a30-bd5a-d012b16e496f rdf:type skos:Concept;
+  skos:prefLabel "built heritage"@en;
+  skos:prefLabel "gebouwd erfgoed"@nl;
+  skos:prefLabel "Baudenkmalpflege"@de;
+  skos:prefLabel "patrimoine immobilier"@fr; 
+  skos:scopeNote "buildings"@en;
+  skos:inScheme dccd:projectCategory.
+dccd:a9ec656f-1bd3-4a30-bd5a-d012b16e496f skos:exactMatch aat:300008063.
+dccd:f862da84-56eb-4bf3-868a-bd92a0e75698 rdf:type skos:Concept;
+  skos:prefLabel "mobilia"@en;
+  skos:prefLabel "mobilia"@nl;
+  skos:prefLabel "mobilia"@de;
+  skos:prefLabel "patrimoine mobilier"@fr; 
+  skos:scopeNote "art, furniture, musical instruments"@en;
+  skos:inScheme dccd:projectCategory.
+dccd:fbd9f1b6-7933-416d-886d-6ee6d5b4d679 rdf:type skos:Concept;
+  skos:prefLabel "furniture"@en;
+  skos:prefLabel "meubilair"@nl;
+  skos:prefLabel "Möbel"@de;
+  skos:prefLabel "mobilier"@fr; 
+  skos:broader dccd:f862da84-56eb-4bf3-868a-bd92a0e75698;
+  skos:inScheme dccd:projectCategory.
+dccd:fbd9f1b6-7933-416d-886d-6ee6d5b4d679 skos:exactMatch aat:300037680.
+dccd:ce9f00c4-bdf2-4a17-93f8-4f243b8a246a rdf:type skos:Concept;
+  skos:prefLabel "musical instrument"@en;
+  skos:prefLabel "muziek instrument"@nl;
+  skos:prefLabel "Musikinstrument"@de;
+  skos:prefLabel "instrument de musique"@fr; 
+  skos:broader dccd:f862da84-56eb-4bf3-868a-bd92a0e75698;
+  skos:inScheme dccd:projectCategory.
+dccd:ce9f00c4-bdf2-4a17-93f8-4f243b8a246a skos:exactMatch aat:300041620.
+dccd:711a46f3-6341-4739-9084-8f5c74391d9b rdf:type skos:Concept;
+  skos:prefLabel "painting"@en;
+  skos:prefLabel "schilderij"@nl;
+  skos:prefLabel "Gemälde"@de;
+  skos:prefLabel "peinture"@fr; 
+  skos:broader dccd:f862da84-56eb-4bf3-868a-bd92a0e75698;
+  skos:inScheme dccd:projectCategory.
+dccd:711a46f3-6341-4739-9084-8f5c74391d9b skos:exactMatch aat:300033618.
+dccd:75966336-9fd7-4e02-9ca8-75ae1f97236b rdf:type skos:Concept;
+  skos:prefLabel "palaeo-vegetation"@en;
+  skos:prefLabel "paleo-vegetatie"@nl;
+  skos:prefLabel "Paläovegetation"@de;
+  skos:prefLabel "paléo-végétation"@fr; 
+  skos:scopeNote "natural remains of forests and woodlands"@en;
+  skos:inScheme dccd:projectCategory.
+dccd:9422b13c-d355-4779-86de-8b034880ffe6 skos:broadMatch aat:300266061.
+dccd:58cc5d6e-56bf-4f75-bb1e-207e206cda22 rdf:type skos:Concept;
+  skos:prefLabel "ship archaeology"@en;
+  skos:prefLabel "scheepsarcheologie"@nl;
+  skos:prefLabel "Schiffarchäologie"@de;
+  skos:prefLabel "archéologie navale"@fr; 
+  skos:scopeNote "ship wrecks"@en;
+  skos:broader dccd:4dcd4d86-2d96-497f-9e09-aacda714aa24;
+  skos:inScheme dccd:projectCategory.
+dccd:58cc5d6e-56bf-4f75-bb1e-207e206cda22 skos:exactMatch aat:300054339.
+dccd:cf276d9f-bf0e-47cf-a3f3-9c72372fadf0 rdf:type skos:Concept;
+  skos:prefLabel "standing trees"@en;
+  skos:prefLabel "staande boom"@nl;
+  skos:prefLabel "stehende Bäume"@de;
+  skos:prefLabel "arbre sur pied"@fr; 
+  skos:scopeNote "sites with living trees"@en;
+  skos:inScheme dccd:projectCategory.
+dccd:56eac9df-7992-49d7-b614-e903636dae48 rdf:type skos:Concept;
+  skos:prefLabel "woodcarving"@en;
+  skos:prefLabel "houtsnijwerk"@nl;
+  skos:prefLabel "Holzschnitzarbeit"@de;
+  skos:prefLabel "sculpture sur bois"@fr; 
+  skos:inScheme dccd:projectCategory.
+dccd:56eac9df-7992-49d7-b614-e903636dae48 skos:exactMatch aat:300015348.
+dccd:edfadf9a-4d49-413f-a893-76837af97fb5 rdf:type skos:Concept;
+  skos:prefLabel "other"@en;
+  skos:prefLabel "anders"@nl;
+  skos:prefLabel "andere"@de;
+  skos:prefLabel "autre"@fr; 
+  skos:scopeNote "non of the others"@en;
+  skos:inScheme dccd:projectCategory.
+
+

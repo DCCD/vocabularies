@@ -1,0 +1,111 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dccd: <http://dendro.dans.knaw.nl/dccd-terms/> .
+dccd:projectType rdf:type skos:ConceptScheme;
+  dct:title "DCCD TRiDaS Project Types";
+  dct:creator dccd:DCCD.
+dccd:fc22100f-33fa-4c7c-83a0-e701f7eb983c rdf:type skos:Concept;
+  skos:prefLabel "anthropology"@en;
+  skos:prefLabel "antropologie"@nl;
+  skos:prefLabel "l'anthropologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:fc22100f-33fa-4c7c-83a0-e701f7eb983c skos:exactMatch aat:300054315.
+dccd:86ca4a80-42bc-4aad-a228-34af2cd65325 rdf:type skos:Concept;
+  skos:prefLabel "climatology"@en;
+  skos:prefLabel "klimatologie"@nl;
+  skos:prefLabel " climatologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:86ca4a80-42bc-4aad-a228-34af2cd65325 skos:exactMatch aat:300379447.
+dccd:eae29d68-5880-4817-b035-a061570113fd rdf:type skos:Concept;
+  skos:prefLabel "dating"@en;
+  skos:prefLabel "datering"@nl;
+  skos:prefLabel "datation"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:eae29d68-5880-4817-b035-a061570113fd skos:exactMatch aat:300054714.
+dccd:730709ae-56db-460a-b0ce-b08f41473218 rdf:type skos:Concept;
+  skos:prefLabel "ecology"@en;
+  skos:prefLabel "ecologie"@nl;
+  skos:prefLabel "écologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:730709ae-56db-460a-b0ce-b08f41473218 skos:exactMatch aat:300054468.
+dccd:7e2dcf8d-6088-4bc2-82b1-48844cc91e7b rdf:type skos:Concept;
+  skos:prefLabel "entomology"@en;
+  skos:prefLabel "entomologie"@nl;
+  skos:prefLabel "entomologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:7e2dcf8d-6088-4bc2-82b1-48844cc91e7b skos:exactMatch aat:300251856.
+dccd:4ba2e9b8-3f10-46c0-85fe-8f6a7e4a49f7 rdf:type skos:Concept;
+  skos:prefLabel "forest dynamics"@en;
+  skos:prefLabel "bosdynamiek"@nl;
+  skos:prefLabel "dynamique forestrière"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:85663032-0177-4716-81ae-841cad1d852f rdf:type skos:Concept;
+  skos:prefLabel "forest management studies"@en;
+  skos:prefLabel "bosbeheer studies"@nl;
+  skos:prefLabel "études de gestion forestière"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:1b6d784a-f722-454b-8919-dd107fb49c4e rdf:type skos:Concept;
+  skos:prefLabel "forestry"@en;
+  skos:prefLabel "bosbouw"@nl;
+  skos:prefLabel "foresterie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:1b6d784a-f722-454b-8919-dd107fb49c4e skos:exactMatch aat:300054511.
+dccd:3e01b25a-bb0d-4367-8359-8b2f892ff73c rdf:type skos:Concept;
+  skos:prefLabel "hydrology"@en;
+  skos:prefLabel "hydrologie"@nl;
+  skos:prefLabel "hydrologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:3e01b25a-bb0d-4367-8359-8b2f892ff73c skos:exactMatch aat:300264403.
+dccd:15bc517e-0798-414a-88b8-1f362ad9df02 rdf:type skos:Concept;
+  skos:prefLabel "geomorphology"@en;
+  skos:prefLabel "geomorfologie"@nl;
+  skos:prefLabel "géomorphologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:15bc517e-0798-414a-88b8-1f362ad9df02 skos:exactMatch aat:300054547.
+dccd:709f582e-1700-4d28-8bc9-15e1f39e462d rdf:type skos:Concept;
+  skos:prefLabel "glaciology"@en;
+  skos:prefLabel "glaciologie"@nl;
+  skos:prefLabel "glaciologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:709f582e-1700-4d28-8bc9-15e1f39e462d skos:broadMatch aat:300054542.
+dccd:52f2773b-c0dd-4794-9148-d9c0c7feeeed rdf:type skos:Concept;
+  skos:prefLabel "palaeo-ecology"@en;
+  skos:prefLabel "paleo-ecologie"@nl;
+  skos:prefLabel "paléo-écologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:99f944af-036c-4628-ae20-c8b3415a301a rdf:type skos:Concept;
+  skos:prefLabel "provenancing"@en;
+  skos:prefLabel "herkomst bepaling"@nl;
+  skos:prefLabel "provenance"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:99f944af-036c-4628-ae20-c8b3415a301a skos:exactMatch aat:300055863.
+dccd:f0c7ba01-b80a-4cb7-88f8-7af442266839 rdf:type skos:Concept;
+  skos:prefLabel "pyrochronology"@en;
+  skos:prefLabel "pyrochronologie"@nl;
+  skos:prefLabel "pyrochronologie"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:f0c7ba01-b80a-4cb7-88f8-7af442266839 skos:broadMatch aat:300056104.
+dccd:c3a771df-9a22-42be-807a-bf235fce9ee3 rdf:type skos:Concept;
+  skos:prefLabel "wood technology"@en;
+  skos:prefLabel "hout technologie"@nl;
+  skos:prefLabel "technologie du bois"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:3ea52e42-a146-4f8e-8773-80f1b946c694 rdf:type skos:Concept;
+  skos:prefLabel "wood biology"@en;
+  skos:prefLabel "hout biologie"@nl;
+  skos:prefLabel "biologie du bois"@fr; 
+  skos:inScheme dccd:projectType.
+dccd:3ea52e42-a146-4f8e-8773-80f1b946c694 skos:broadMatch aat:300054466.
+dccd:2179fd16-3230-4493-91e3-cc26b12f8a3f rdf:type skos:Concept;
+  skos:prefLabel "other"@en;
+  skos:prefLabel "anders"@nl;
+  skos:prefLabel "autre"@fr; 
+  skos:scopeNote "non of the others"@en;
+  skos:inScheme dccd:projectType.
+
+
