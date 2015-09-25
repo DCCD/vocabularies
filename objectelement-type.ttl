@@ -1,6 +1,6 @@
-# Total number of concepts in database: 458
-# Total number of checked concepts in database: 306
-# Total number of checked concepts in database with match in AAT: 169
+# Total number of concepts in database: 446
+# Total number of checked concepts in database: 316
+# Total number of checked concepts in database with match in AAT: 191
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -42,6 +42,128 @@ dccd:474 rdf:type skos:Concept;
   skos:altLabel "platbodem"@nl;
   skos:narrower dccd:10000;
   skos:inScheme dccd:objectElementType.
+dccd:535 rdf:type skos:Concept;
+  skos:scopeNote """Rooms in or attached to churches where the sacred utensils and vestments are kept """@en;
+  skos:exactMatch aat:300266764;
+  skos:altLabel "vestry"@en;
+  skos:altLabel "sacristy"@en;
+  skos:altLabel "almerei"@de;
+  skos:altLabel "gerbekammer"@de;
+  skos:altLabel "sakristei"@de;
+  skos:altLabel "sacristie"@fr;
+  skos:altLabel "sacristie"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:134 rdf:type skos:Concept;
+  skos:scopeNote """Use for the outside, overhead enclosures of buildings or other structures, including the roofing and its structural framing """@en;
+  skos:exactMatch aat:300002098;
+  skos:altLabel "dak"@nl;
+  skos:altLabel "toit, toiture"@fr;
+  skos:altLabel "roof"@en;
+  skos:altLabel "dach"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:666 rdf:type skos:Concept;
+  skos:scopeNote """Interior walls separating one portion of a space from another; sometimes permanent inside walls that divide buildings into various rooms, sometimes designed to move aside and open up a space. For entities other than walls that divide interior spaces, often incorporating bookshelves, cabinets, or drawers, use 'room dividers.'"""@en;
+  skos:exactMatch aat:300002538;
+  skos:altLabel "partition wall"@en;
+  skos:altLabel "tussenmuur"@nl;
+  skos:altLabel "mur de séparation"@fr;
+  skos:altLabel "mur de refend"@fr;
+  skos:altLabel "tussenwand"@nl;
+  skos:altLabel "scheidemauer"@de;
+  skos:altLabel "partition"@en;
+  skos:altLabel "trennwand"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:142 rdf:type skos:Concept;
+  skos:scopeNote """shipsterm """@en;
+  skos:exactMatch aat:300263189;
+  skos:altLabel "deck"@de;
+  skos:altLabel "deck"@en;
+  skos:altLabel "pont"@fr;
+  skos:altLabel "dek"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:145 rdf:type skos:Concept;
+  skos:scopeNote """Chests with deep storage space, at least one drawer, and a hinged lid. Frequently used for the storage of blankets."""@en;
+  skos:exactMatch aat:300172507;
+  skos:altLabel "dekenkist"@nl;
+  skos:altLabel "bahut"@fr;
+  skos:altLabel "blanket chest"@en;
+  skos:altLabel "truhe"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:167 rdf:type skos:Concept;
+  skos:scopeNote """Braces, such as struts, which strengthen a structure or framework against the wind."""@en;
+  skos:exactMatch aat:300001839;
+  skos:altLabel "kopfstrebe"@de;
+  skos:altLabel "strebe"@de;
+  skos:altLabel "windrispe"@de;
+  skos:altLabel "strut"@en;
+  skos:altLabel "contreventement"@fr;
+  skos:altLabel "drukschoor"@nl;
+  skos:altLabel "windstrebe"@de;
+  skos:altLabel "wind brace"@en;
+  skos:altLabel "écharpe"@fr;
+  skos:altLabel "windschoor"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:18 rdf:type skos:Concept;
+  skos:scopeNote """Buildings belonging to and for the assembly of members of crafts, trades, or merchants' guilds"""@en;
+  skos:exactMatch aat:300007077;
+  skos:altLabel "handwerkshaus"@de;
+  skos:altLabel "guildhall"@en;
+  skos:altLabel "maison de l'artisanat"@fr;
+  skos:altLabel "ambachtshuis"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:19 rdf:type skos:Concept;
+  skos:scopeNote """Crosses in the form of the letter X, used as a heraldic symbol in the form of a diagonal cross or letter X and as a symbol for Saint Andrew, who is said to have been martyred on such a cross."""@en;
+  skos:exactMatch aat:300010079;
+  skos:altLabel "andreaskreuz"@de;
+  skos:altLabel "saint andrew's cross"@en;
+  skos:altLabel "croix de saint-andré"@fr;
+  skos:altLabel "andreaskruis"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:120 rdf:type skos:Concept;
+  skos:scopeNote """Use for square or rectangular upright, masonry, supporting elements, and for similar elements of wood when classically treated; use also for massive upright supporting elements of any shape in Medieval architecture. For cylindrical uprights, except when Medieval as described above, and for all uprights in steel and concrete frames, use 'columns (architectural elements)'; for square wooden uprights when not classically treated, use 'posts.'"""@en;
+  skos:exactMatch aat:300078728;
+  skos:altLabel "pile"@fr;
+  skos:altLabel "brugpijler"@nl;
+  skos:altLabel "pfeiler"@de;
+  skos:altLabel "pier"@en;
+  skos:altLabel "pilier"@fr;
+  skos:altLabel "pijler"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:489 rdf:type skos:Concept;
+  skos:scopeNote """A long narrow flat-bottomed boat, square at both ends and propelled with a long pole, used on inland waters chiefly for recreation"""@en;
+  skos:narrower aat:300178749;
+  skos:altLabel "pünte-artiges fahrzeug"@de;
+  skos:altLabel "punt-like vessel"@en;
+  skos:altLabel "navire aux elements constructifs de plate"@fr;
+  skos:altLabel "punter-achtig vaartuig"@nl;
+  skos:narrower dccd:10000;
+  skos:inScheme dccd:objectElementType.
+dccd:6 rdf:type skos:Concept;
+  skos:closeMatch aat:3;
+  skos:altLabel "achtervleugel"@nl;
+  skos:altLabel "arrière-corps (de la maison)"@fr;
+  skos:altLabel "rear wing"@en;
+  skos:altLabel "achterhuis"@nl;
+  skos:altLabel "hinterhaus"@de;
+  skos:altLabel "aisle arriere"@fr;
+  skos:inScheme dccd:objectElementType.
+dccd:93 rdf:type skos:Concept;
+  skos:scopeNote """Use for watercraft generally smaller and less seaworthy than ships and generally not designed to cross large open waters """@en;
+  skos:exactMatch aat:300178749;
+  skos:altLabel "boot"@de;
+  skos:altLabel "boat"@en;
+  skos:altLabel "bateau"@fr;
+  skos:altLabel "boot"@nl;
+  skos:narrower dccd:10000;
+  skos:inScheme dccd:objectElementType.
+dccd:119 rdf:type skos:Concept;
+  skos:narrower aat:300000888;
+  skos:altLabel "abutment"@en;
+  skos:altLabel "brückenkopf"@de;
+  skos:altLabel "bridge head"@en;
+  skos:altLabel "tête de pont"@fr;
+  skos:altLabel "bruggenhoofd"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:10000 rdf:type skos:Concept;
   skos:scopeNote """Top level concept for all watercraft"""@en;
   skos:exactMatch aat:300042940;
@@ -52,17 +174,20 @@ dccd:10000 rdf:type skos:Concept;
   skos:broader dccd:282;
   skos:broader dccd:354;
   skos:broader dccd:474;
+  skos:broader dccd:489;
+  skos:broader dccd:93;
   skos:broader dccd:268;
   skos:broader dccd:1;
+  skos:broader dccd:280;
+  skos:broader dccd:189;
   skos:broader dccd:38;
-  skos:broader dccd:93;
   skos:broader dccd:339;
   skos:broader dccd:442;
   skos:broader dccd:761;
   skos:inScheme dccd:objectElementType.
 dccd:11 rdf:type skos:Concept;
-  skos:scopeNote """shipsterm """@en;
-  skos:exactMatch aat:300221835;
+  skos:scopeNote """Devices or assemblies of devices designed to support artillery and heavy small arms such as machine guns. They range from simple tripods to complex supporting, pivoting, and elevating mechanisms on gun carriages."""@en;
+  skos:closeMatch aat:3;
   skos:altLabel "rolpaard"@nl;
   skos:altLabel "lafette"@de;
   skos:altLabel "carriage"@en;
@@ -94,6 +219,34 @@ dccd:1 rdf:type skos:Concept;
   skos:altLabel "aak"@nl;
   skos:narrower dccd:10000;
   skos:inScheme dccd:objectElementType.
+dccd:280 rdf:type skos:Concept;
+  skos:scopeNote """Watercraft designed for use on canals generally long and narrow with bow and stern often nearly vertical for increased cargo capacity."""@en;
+  skos:exactMatch aat:7#http://vocab.getty.edu/aat/300212687;
+  skos:altLabel "narrow boat"@en;
+  skos:altLabel "kanaalschip"@nl;
+  skos:altLabel "kanalboot"@de;
+  skos:altLabel "canalboat"@en;
+  skos:narrower dccd:10000;
+  skos:inScheme dccd:objectElementType.
+dccd:189 rdf:type skos:Concept;
+  skos:scopeNote """Generally used for oared fighting ships, principally of the Mediterranean, in operation from the Early Bronze Age until the 18th century CE; most commonly with numerous oars on one or several decks and equipped with a ram with which to damage and sink enemy vessels. For post-18th century steamships equipped with an armored prow as a primary weapon, use 'rams.'"""@en;
+  skos:exactMatch aat:300125456;
+  skos:altLabel "galeere"@de;
+  skos:altLabel "galley"@en;
+  skos:altLabel "galère"@fr;
+  skos:altLabel "galei"@nl;
+  skos:narrower dccd:10000;
+  skos:inScheme dccd:objectElementType.
+dccd:351 rdf:type skos:Concept;
+  skos:scopeNote """Use for buildings equipped with machinery for grinding grain into flour """@en;
+  skos:exactMatch aat:300006286;
+  skos:altLabel "corn mill"@en;
+  skos:altLabel "flour mill"@en;
+  skos:altLabel "moulin à céréales"@fr;
+  skos:altLabel "kornmühle"@de;
+  skos:altLabel "moulin à farine"@fr;
+  skos:altLabel "korenmolen"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:4 rdf:type skos:Concept;
   skos:scopeNote """ at the eastern side of the cloister """@en;
   skos:exactMatch aat:300007495;
@@ -102,33 +255,75 @@ dccd:4 rdf:type skos:Concept;
   skos:altLabel "abbatiale"@fr;
   skos:altLabel "abdijkerk"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:8 rdf:type skos:Concept;
-  skos:scopeNote """shipsterm """@en;
-  skos:exactMatch aat:300266413;
-  skos:altLabel "heck"@de;
-  skos:altLabel "quarter"@en;
-  skos:altLabel "hinterschiff"@de;
-  skos:altLabel "l'arrière du vaisseau"@fr;
-  skos:altLabel "achterschip"@nl;
-  skos:altLabel "aft"@en;
+dccd:5 rdf:type skos:Concept;
+  skos:closeMatch aat:3;
+  skos:altLabel "hintere faciade"@de;
+  skos:altLabel "rear facade"@en;
+  skos:altLabel "façade postérieure"@fr;
+  skos:altLabel "achtergevel"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:9 rdf:type skos:Concept;
-  skos:scopeNote """shipsterm """@en;
-  skos:exactMatch aat:300262678;
-  skos:altLabel "achtersteven"@de;
-  skos:altLabel "hintersteven"@de;
-  skos:altLabel "stern"@en;
-  skos:altLabel "étambot"@fr;
-  skos:altLabel "achtersteven"@nl;
+dccd:7 rdf:type skos:Concept;
+  skos:narrower aat:300133704;
+  skos:altLabel "hinterstube"@de;
+  skos:altLabel "hinterzimmer"@de;
+  skos:altLabel "back room"@en;
+  skos:altLabel "chambre de derrière"@fr;
+  skos:altLabel "achterkamer"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:12 rdf:type skos:Concept;
-  skos:exactMatch aat:300108920;
-  skos:altLabel "abzweigung"@de;
-  skos:altLabel "zweig"@de;
-  skos:altLabel "ast"@de;
-  skos:altLabel "branch"@en;
-  skos:altLabel "branche"@fr;
-  skos:altLabel "tak"@nl;
+dccd:590 rdf:type skos:Concept;
+  skos:scopeNote """Structures designed or used for the storage of commodities or merchandise """@en;
+  skos:exactMatch aat:300007722;
+  skos:altLabel "storehouse"@en;
+  skos:altLabel "spijker"@nl;
+  skos:altLabel "warehouse"@en;
+  skos:altLabel "speicher"@de;
+  skos:altLabel "grenier"@fr;
+  skos:altLabel "spieker"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:656 rdf:type skos:Concept;
+  skos:scopeNote """Use for clearly articulated, often towerlike, building appendages containing only stairs """@en;
+  skos:exactMatch aat:300130963;
+  skos:altLabel "treppenturm"@de;
+  skos:altLabel "stair tower"@en;
+  skos:altLabel "staircase turret"@en;
+  skos:altLabel "tourelle d'escalier"@fr;
+  skos:altLabel "tour-escalier"@fr;
+  skos:altLabel "traptoren"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:603 rdf:type skos:Concept;
+  skos:scopeNote """Pendulum-driven floor clocks having cases about 6 feet high or larger, developed in England in the mid-17th century """@en;
+  skos:exactMatch aat:300041586;
+  skos:altLabel "grandfather clock"@en;
+  skos:altLabel "staande klok"@nl;
+  skos:altLabel "horloge de parquet"@fr;
+  skos:altLabel "standuhr"@de;
+  skos:altLabel "long-case clock"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:647 rdf:type skos:Concept;
+  skos:scopeNote """Use for structures of varying forms in gardens or parks designed to provide cool shady places of relaxation or retreats from summer heat """@en;
+  skos:narrower aat:300006822;
+  skos:altLabel "pavillion"@en;
+  skos:altLabel "summerhouse"@en;
+  skos:altLabel "teepavillon"@de;
+  skos:altLabel "pavillon de thé"@fr;
+  skos:altLabel "theekoepel"@nl;
+  skos:altLabel "tea pavillion"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:664 rdf:type skos:Concept;
+  skos:scopeNote """Refers to the ropes, wires, or chains on watercraft for securing or supporting masts, yards, and for hoisting, lowering, or trimming the sails."""@en;
+  skos:exactMatch aat:300213053;
+  skos:altLabel "rig"@en;
+  skos:altLabel "rigging"@en;
+  skos:altLabel "gréement"@fr;
+  skos:altLabel "tuig"@nl;
+  skos:altLabel "takelage"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:13 rdf:type skos:Concept;
+  skos:closeMatch aat:3;
+  skos:altLabel "abfallgrube"@de;
+  skos:altLabel "waste pit"@en;
+  skos:altLabel "fosse à déchets"@fr;
+  skos:altLabel "afvalkuil"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:15 rdf:type skos:Concept;
   skos:scopeNote """Use for constructions upon which religious sacrifice is offered. Includes both small, tablelike fixtures and larger, free-standing, outdoor structures. For the surface at which communion is celebrated in Protestant churches, use 'communion tables.' """@en;
@@ -153,20 +348,6 @@ dccd:17 rdf:type skos:Concept;
   skos:altLabel "violon"@fr;
   skos:altLabel "viool"@nl;
   skos:altLabel "violine"@de;
-  skos:inScheme dccd:objectElementType.
-dccd:18 rdf:type skos:Concept;
-  skos:exactMatch aat:300007077;
-  skos:altLabel "handwerkshaus"@de;
-  skos:altLabel "guildhall"@en;
-  skos:altLabel "maison de l'artisanat"@fr;
-  skos:altLabel "ambachtshuis"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:19 rdf:type skos:Concept;
-  skos:exactMatch aat:300010079;
-  skos:altLabel "andreaskreuz"@de;
-  skos:altLabel "saint andrew's cross"@en;
-  skos:altLabel "croix de saint-andré"@fr;
-  skos:altLabel "andreaskruis"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:25 rdf:type skos:Concept;
   skos:exactMatch aat:300263195;
@@ -225,13 +406,6 @@ dccd:42 rdf:type skos:Concept;
   skos:altLabel "bastion"@en;
   skos:altLabel "bastion"@fr;
   skos:altLabel "bolwerk"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:43 rdf:type skos:Concept;
-  skos:exactMatch aat:300038697;
-  skos:altLabel "bett"@de;
-  skos:altLabel "bed"@en;
-  skos:altLabel "lit"@fr;
-  skos:altLabel "bed"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:45 rdf:type skos:Concept;
   skos:scopeNote """Use for works of art in which images and forms are carried out primarily in three dimensions, especially those that retain the quality of being tangible objects or groups of objects. """@en;
@@ -398,6 +572,37 @@ dccd:118 rdf:type skos:Concept;
   skos:altLabel "pont"@fr;
   skos:altLabel "brug"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:103 rdf:type skos:Concept;
+  skos:scopeNote """shipsterm """@en;
+  skos:narrower aat:300263189;
+  skos:altLabel "oberdeck"@de;
+  skos:altLabel "upper deck"@en;
+  skos:altLabel "pont supérieur"@fr;
+  skos:altLabel "bovendek"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:108 rdf:type skos:Concept;
+  skos:closeMatch aat:3;
+  skos:altLabel "dose"@de;
+  skos:altLabel "box"@en;
+  skos:altLabel "boîte"@fr;
+  skos:altLabel "doos"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:9 rdf:type skos:Concept;
+  skos:scopeNote """Generally, the rear portions of watercraft."""@en;
+  skos:exactMatch aat:300262678;
+  skos:altLabel "achtersteven"@de;
+  skos:altLabel "hintersteven"@de;
+  skos:altLabel "stern"@en;
+  skos:altLabel "étambot"@fr;
+  skos:altLabel "achtersteven"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:43 rdf:type skos:Concept;
+  skos:exactMatch aat:300038697;
+  skos:altLabel "bett"@de;
+  skos:altLabel "bed"@en;
+  skos:altLabel "lit"@fr;
+  skos:altLabel "bed"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:124 rdf:type skos:Concept;
   skos:exactMatch aat:300005579;
   skos:altLabel "herrenhaus"@de;
@@ -512,19 +717,6 @@ dccd:164 rdf:type skos:Concept;
   skos:altLabel "threshold"@en;
   skos:altLabel "seuil"@fr;
   skos:altLabel "drempel"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:167 rdf:type skos:Concept;
-  skos:exactMatch aat:300001839;
-  skos:altLabel "kopfstrebe"@de;
-  skos:altLabel "strebe"@de;
-  skos:altLabel "windrispe"@de;
-  skos:altLabel "strut"@en;
-  skos:altLabel "contreventement"@fr;
-  skos:altLabel "drukschoor"@nl;
-  skos:altLabel "windstrebe"@de;
-  skos:altLabel "wind brace"@en;
-  skos:altLabel "écharpe"@fr;
-  skos:altLabel "windschoor"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:169 rdf:type skos:Concept;
   skos:scopeNote """Narrow boards used to build up a curved surface """@en;
@@ -902,6 +1094,13 @@ dccd:376 rdf:type skos:Concept;
   skos:altLabel "drawer"@en;
   skos:altLabel "tiroir"@fr;
   skos:altLabel "lade"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:378 rdf:type skos:Concept;
+  skos:closeMatch aat:3;
+  skos:altLabel "landgut"@de;
+  skos:altLabel "country estate"@en;
+  skos:altLabel "domaine"@fr;
+  skos:altLabel "landgoed"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:386 rdf:type skos:Concept;
   skos:scopeNote """In contemporary military contexts, use for groups of huts, tents, or other shelters set up temporarily for troops; in historical contexts use for permanent or semipermanent places of encampment; use 'military bases' for contemporary permanent installations."""@en;
@@ -1417,6 +1616,7 @@ dccd:644 rdf:type skos:Concept;
 dccd:651 rdf:type skos:Concept;
   skos:scopeNote """Use for tall structures that are at least roughly pyramidal, polygonal, or conical and that rise from towers or roofs """@en;
   skos:exactMatch aat:300003615;
+  skos:closeMatch aat:3;
   skos:altLabel "turm"@de;
   skos:altLabel "tower"@en;
   skos:altLabel "tour"@fr;
