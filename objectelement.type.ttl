@@ -1,6 +1,7 @@
-# Total number of concepts in database: 446
-# Total number of checked concepts in database: 316
-# Total number of checked concepts in database with match in AAT: 191
+# This file was generated on Wed, 30 Sep 2015 15:27:33 -0600
+# Total number of enabled concepts in database: 434
+# Number of these that have been checked/validated: 334
+# Number of these that have some sort of match in AAT assigned: 209
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -138,6 +139,22 @@ dccd:489 rdf:type skos:Concept;
   skos:altLabel "punter-achtig vaartuig"@nl;
   skos:narrower dccd:10000;
   skos:inScheme dccd:objectElementType.
+dccd:675 rdf:type skos:Concept;
+  skos:scopeNote """General term for any works made to oppose a small number of troops against a greater
+Use for the habitable spaces between two floors of a building or between a floor and the roof, and for the horizontal divisions of the exteriors of buildings which tend to correspond to this division of the interior spaces"""@en;
+  skos:exactMatch aat:300006888;
+  skos:altLabel "fortification"@fr;
+  skos:altLabel "befestigung"@de;
+  skos:altLabel "versterking"@nl;
+  skos:altLabel "fortification"@en;
+  skos:altLabel "construction défensive"@fr;
+  skos:altLabel "verdedigingswerk"@nl;
+  skos:altLabel "befestigungsanlage"@de;
+  skos:altLabel "festungswerk"@de;
+  skos:altLabel "wehrbau"@de;
+  skos:altLabel "defensive work"@en;
+  skos:altLabel "ouvrage de défense"@fr;
+  skos:inScheme dccd:objectElementType.
 dccd:6 rdf:type skos:Concept;
   skos:closeMatch aat:3;
   skos:altLabel "achtervleugel"@nl;
@@ -163,6 +180,18 @@ dccd:119 rdf:type skos:Concept;
   skos:altLabel "bridge head"@en;
   skos:altLabel "tête de pont"@fr;
   skos:altLabel "bruggenhoofd"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:695 rdf:type skos:Concept;
+  skos:scopeNote """Use for small unfinished attic spaces immediately below roof ridges; Use for enclosed spaces under sloping roofs, between the roof and the ceiling of the uppermost story, especially in houses, whether used for storage or habitation. For open platforms in houses set close to ceilings or for large spaces below the roofs of commercial buildings or warehouses, use 'lofts (upper level floors)"""@en;
+  skos:exactMatch aat:300004076;
+  skos:altLabel "loft"@en;
+  skos:altLabel "dachboden"@de;
+  skos:altLabel "grenier"@fr;
+  skos:altLabel "oberes dachgeschoss"@de;
+  skos:altLabel "cockloft"@en;
+  skos:altLabel "soupente"@fr;
+  skos:altLabel "attic"@en;
+  skos:altLabel "vliering"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:10000 rdf:type skos:Concept;
   skos:scopeNote """Top level concept for all watercraft"""@en;
@@ -194,6 +223,23 @@ dccd:11 rdf:type skos:Concept;
   skos:altLabel "affût"@fr;
   skos:altLabel "affuit"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:261 rdf:type skos:Concept;
+  skos:scopeNote """Individual dwellings designed to be occupied by a single tenant or family. May also refer to a building for human occupation, for some purpose other than that of an ordinary dwelling; with this usage, 'house' is generally prefaced (e.g., 'cowhouse,' 'almshouse')."""@en;
+  skos:exactMatch aat:300005433;
+  skos:altLabel "wohnung"@de;
+  skos:altLabel "residence"@en;
+  skos:altLabel "demeure"@fr;
+  skos:altLabel "domicile"@fr;
+  skos:altLabel "habitation"@fr;
+  skos:altLabel "woning"@nl;
+  skos:altLabel "wohnhaus"@de;
+  skos:altLabel "maison d'habitation"@fr;
+  skos:altLabel "woonhuis"@nl;
+  skos:altLabel "haus"@de;
+  skos:altLabel "house"@en;
+  skos:altLabel "maison"@fr;
+  skos:altLabel "huis"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:661 rdf:type skos:Concept;
   skos:exactMatch aat:300040444;
   skos:altLabel "running-board"@en;
@@ -221,7 +267,7 @@ dccd:1 rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 dccd:280 rdf:type skos:Concept;
   skos:scopeNote """Watercraft designed for use on canals generally long and narrow with bow and stern often nearly vertical for increased cargo capacity."""@en;
-  skos:exactMatch aat:7#http://vocab.getty.edu/aat/300212687;
+  skos:exactMatch aat:300212687#http://vocab.getty.edu/aat/300212687;
   skos:altLabel "narrow boat"@en;
   skos:altLabel "kanaalschip"@nl;
   skos:altLabel "kanalboot"@de;
@@ -246,6 +292,14 @@ dccd:351 rdf:type skos:Concept;
   skos:altLabel "kornmühle"@de;
   skos:altLabel "moulin à farine"@fr;
   skos:altLabel "korenmolen"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:749 rdf:type skos:Concept;
+  skos:scopeNote """Institutions that are staffed and equipped for the diagnosis of disease, for medical and surgical treatment of the sick and the injured, and for their housing during this process. The modern hospital also often serves as a center for investigation and for teaching."""@en;
+  skos:exactMatch aat:300343473;
+  skos:altLabel "ziekenhuis"@nl;
+  skos:altLabel "hôpital"@fr;
+  skos:altLabel "hospital"@en;
+  skos:altLabel "krankenhaus"@de;
   skos:inScheme dccd:objectElementType.
 dccd:4 rdf:type skos:Concept;
   skos:scopeNote """ at the eastern side of the cloister """@en;
@@ -317,6 +371,61 @@ dccd:664 rdf:type skos:Concept;
   skos:altLabel "gréement"@fr;
   skos:altLabel "tuig"@nl;
   skos:altLabel "takelage"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:677 rdf:type skos:Concept;
+  skos:scopeNote """The strong outer works of a fortification, usually low enough to permit defensive fire"""@en;
+  skos:exactMatch aat:300387515;
+  skos:altLabel "bolwerk"@nl;
+  skos:altLabel "bollwerk"@de;
+  skos:altLabel "verschansing"@nl;
+  skos:altLabel "pavois"@fr;
+  skos:altLabel "bulwark"@en;
+  skos:altLabel "schanzkleid"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:672 rdf:type skos:Concept;
+  skos:scopeNote """Openings in the wall of a building, serving to admit light, usually to permit vision, and often to admit air."""@en;
+  skos:exactMatch aat:300002944;
+  skos:altLabel "venster"@nl;
+  skos:altLabel "fenêtre"@fr;
+  skos:altLabel "window"@en;
+  skos:altLabel "fenster"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:674 rdf:type skos:Concept;
+  skos:scopeNote """Use broadly for all sorts of walls constructed to resist attack."""@en;
+  skos:exactMatch aat:300002485;
+  skos:altLabel "mauern"@de;
+  skos:altLabel "defensive wall"@en;
+  skos:altLabel "verdedigingsmuur"@nl;
+  skos:altLabel "mur défensif"@fr;
+  skos:inScheme dccd:objectElementType.
+dccd:679 rdf:type skos:Concept;
+  skos:scopeNote """Country house inhabited by lord of the manor.  Has out buildings to support manorial economy."""@en;
+  skos:exactMatch aat:300005579;
+  skos:altLabel "demeure"@fr;
+  skos:altLabel "herrenhaus"@de;
+  skos:altLabel "buitenplaats"@nl;
+  skos:altLabel "manor house"@en;
+  skos:altLabel "versterkt huis"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:682 rdf:type skos:Concept;
+  skos:closeMatch aat:3;
+  skos:altLabel "kamer"@nl;
+  skos:altLabel "zimmer"@de;
+  skos:altLabel "room"@en;
+  skos:altLabel "chambre"@fr;
+  skos:altLabel "kammer"@de;
+  skos:altLabel "raum"@de;
+  skos:altLabel "chamber"@en;
+  skos:altLabel "pièce"@fr;
+  skos:altLabel "vertrek"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:683 rdf:type skos:Concept;
+  skos:scopeNote """Large, permanent, heavily fortified, defensive military positions, sometimes including a town. Larger and stronger than 'forts.'"""@en;
+  skos:exactMatch aat:300006894;
+  skos:altLabel "vesting"@nl;
+  skos:altLabel "forteresse"@fr;
+  skos:altLabel "fortress"@en;
+  skos:altLabel "festung"@de;
   skos:inScheme dccd:objectElementType.
 dccd:13 rdf:type skos:Concept;
   skos:closeMatch aat:3;
@@ -885,13 +994,6 @@ dccd:256 rdf:type skos:Concept;
   skos:altLabel "horreum"@en;
   skos:altLabel "horreum"@fr;
   skos:altLabel "horreum"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:261 rdf:type skos:Concept;
-  skos:exactMatch aat:300005433;
-  skos:altLabel "haus"@de;
-  skos:altLabel "house"@en;
-  skos:altLabel "maison"@fr;
-  skos:altLabel "huis"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:263 rdf:type skos:Concept;
   skos:scopeNote """Images produced in the Eastern Rite churches, since the 6th century, according to prescribed formulas of subject (Christ, the Virgin, saints, and the great feasts) and composition, for devotional use in the church or home. Most commonly tempera on panel, but may be in any two-dimensional or relief medium, including fresco."""@en;
@@ -1672,6 +1774,22 @@ dccd:761 rdf:type skos:Concept;
   skos:altLabel "schip"@nl;
   skos:narrower dccd:10000;
   skos:inScheme dccd:objectElementType.
+dccd:698 rdf:type skos:Concept;
+  skos:scopeNote """Refers broadly to devices or contrivances by which people, animals, or objects are conveyed or carried."""@en;
+  skos:exactMatch aat:300219258;
+  skos:altLabel "vehicle"@en;
+  skos:altLabel "véhicule"@fr;
+  skos:altLabel "fahrzeug"@de;
+  skos:altLabel "voertuig"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:696 rdf:type skos:Concept;
+  skos:scopeNote """The surfaces of rooms or spaces on which one walks"""@en;
+  skos:exactMatch aat:300002060;
+  skos:altLabel "floor"@en;
+  skos:altLabel "vloer"@nl;
+  skos:altLabel "sol"@fr;
+  skos:altLabel "fußboden"@de;
+  skos:inScheme dccd:objectElementType.
 dccd:3 rdf:type skos:Concept;
   skos:scopeNote """Designates independent and canonically erected monasteries, ruled by an abbot if occupied by monks and by an abbess if occupied by nuns """@en;
   skos:exactMatch aat:300000642;
@@ -1679,4 +1797,67 @@ dccd:3 rdf:type skos:Concept;
   skos:altLabel "abbey"@en;
   skos:altLabel "abbaye"@fr;
   skos:altLabel "abdij"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:711 rdf:type skos:Concept;
+  skos:scopeNote """Use for watercraft designed primarily to transport cargo """@en;
+  skos:exactMatch aat:300212694;
+  skos:altLabel "freighter"@en;
+  skos:altLabel "vrachtschip"@nl;
+  skos:altLabel "frachtschiff"@de;
+  skos:altLabel "lastschiff"@de;
+  skos:altLabel "cargo vessel"@en;
+  skos:altLabel "frachter"@de;
+  skos:altLabel "cargo"@fr;
+  skos:inScheme dccd:objectElementType.
+dccd:703 rdf:type skos:Concept;
+  skos:scopeNote """Passages or rooms just inside the entrance of a residence, but sometimes with a vestibule between it and the outdoors. Prefer 'lobbies' for such spaces in larger public buildings."""@en;
+  skos:exactMatch aat:300004263;
+  skos:altLabel "entrance hall"@en;
+  skos:altLabel "flur"@de;
+  skos:altLabel "hall d'entrée"@fr;
+  skos:altLabel "entreehal"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:706 rdf:type skos:Concept;
+  skos:scopeNote """Rooms or closets in which food, groceries, and other provisions, or silverware, dishes, and other items are kept."""@en;
+  skos:exactMatch aat:300004499;
+  skos:altLabel "provisiekamer"@nl;
+  skos:altLabel "voorraadkamer"@nl;
+  skos:altLabel "pantry"@en;
+  skos:altLabel "garde-manger"@fr;
+  skos:altLabel "speisekammer"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:742 rdf:type skos:Concept;
+  skos:scopeNote """A pair of small oars used by a single rower"""@en;
+  skos:narrower aat:300213077;
+  skos:altLabel "scull"@en;
+  skos:altLabel "skull"@de;
+  skos:altLabel "godille"@fr;
+  skos:altLabel "wrikriem"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:758 rdf:type skos:Concept;
+  skos:scopeNote """Rigid sheaths made of wood, metal, or leather, used to enclose and carry edged weapons or tools, or hand weapons such as carbines and rifles."""@en;
+  skos:exactMatch aat:300037139;
+  skos:altLabel "scabbard"@en;
+  skos:altLabel "fourreau"@fr;
+  skos:altLabel "schede"@nl;
+  skos:altLabel "schwertscheide"@de;
+  skos:altLabel "sheath"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:743 rdf:type skos:Concept;
+  skos:scopeNote """Use generally for rooms large in proportion to rooms for domestic functions, circulation, or storage; use also for the principal rooms of a Medieval house and for large central rooms in certain 19th- and 20th-century English and American houses. """@en;
+  skos:exactMatch aat:300004441;
+  skos:altLabel "parlour"@en;
+  skos:altLabel "hall"@en;
+  skos:altLabel "best room"@en;
+  skos:altLabel "sejour"@fr;
+  skos:altLabel "pronkkamer"@nl;
+  skos:altLabel "beste Stube"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:740 rdf:type skos:Concept;
+  skos:scopeNote """Material derived from or comprising roots, which are parts of a plant that develop, growing typically from the radicle and downward into the soil."""@en;
+  skos:exactMatch aat:300081475;
+  skos:altLabel "wurzelwerk"@de;
+  skos:altLabel "racines"@fr;
+  skos:altLabel "wortelstelsel"@nl;
+  skos:altLabel "roots"@en;
   skos:inScheme dccd:objectElementType.
