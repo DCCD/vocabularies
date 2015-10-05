@@ -1,8 +1,8 @@
 ##############################################################
-# This file was generated on Mon, 05 Oct 2015 12:31:06 -0600
-# Number of checked and rejected concepts   : 45
-# Number of checked and accepted concepts   : 344
-# Number of concepts that need checking     : 88
+# This file was generated on Mon, 05 Oct 2015 17:57:43 -0600
+# Number of checked and rejected concepts   : 67
+# Number of checked and accepted concepts   : 345
+# Number of concepts that need checking     : 65
 # Number of concepts with AAT match assigned: 291
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -227,15 +227,6 @@ dccd:a7a1b876-6b80-11e5-aa77-efc72bb9da1b rdf:type skos:Concept;
   skos:altLabel "palée"@fr;
   skos:altLabel "oeverbeschoeiing"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a1b920-6b80-11e5-aa78-0f19e75e5a25 rdf:type skos:Concept;
-  skos:scopeNote """Devices or assemblies of devices designed to support artillery and heavy small arms such as machine guns. They range from simple tripods to complex supporting, pivoting, and elevating mechanisms on gun carriages."""@en;
-  skos:closeMatch aat:300221835;
-  skos:altLabel "rolpaard"@nl;
-  skos:altLabel "lafette"@de;
-  skos:altLabel "carriage"@en;
-  skos:altLabel "affût"@fr;
-  skos:altLabel "affuit"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a1b9ca-6b80-11e5-aa79-b78d5a08cec5 rdf:type skos:Concept;
   skos:scopeNote """Individual dwellings designed to be occupied by a single tenant or family. May also refer to a building for human occupation, for some purpose other than that of an ordinary dwelling; with this usage, 'house' is generally prefaced (e.g., 'cowhouse,' 'almshouse')."""@en;
   skos:exactMatch aat:300005433;
@@ -424,13 +415,6 @@ dccd:a7a1e508-6b80-11e5-aab2-ffd373add096 rdf:type skos:Concept;
   skos:altLabel "abbey church"@en;
   skos:altLabel "abbatiale"@fr;
   skos:altLabel "abdijkerk"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a1e5b2-6b80-11e5-aab3-537400f848ac rdf:type skos:Concept;
-  skos:closeMatch aat:300002526;
-  skos:altLabel "hintere faciade"@de;
-  skos:altLabel "rear facade"@en;
-  skos:altLabel "façade postérieure"@fr;
-  skos:altLabel "achtergevel"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1e85a-6b80-11e5-aab7-27a784c5bedf rdf:type skos:Concept;
   skos:scopeNote """Structures designed or used for the storage of commodities or merchandise """@en;
@@ -1051,6 +1035,15 @@ dccd:a7a236ac-6b80-11e5-ab27-6f988d915f57 rdf:type skos:Concept;
   skos:altLabel "gallow"@en;
   skos:altLabel "potence"@fr;
   skos:altLabel "galg"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2264e-6b80-11e5-ab0e-ff0eba6d3e67 rdf:type skos:Concept;
+  skos:scopeNote """The fronts or forwardmost ends of watercraft"""@en;
+  skos:exactMatch aat:300248152;
+  skos:altLabel "bug"@de;
+  skos:altLabel "proue"@fr;
+  skos:altLabel "boeg"@nl;
+  skos:altLabel "prow"@en;
+  skos:altLabel "bow"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a237f6-6b80-11e5-ab29-6308fe52a0ff rdf:type skos:Concept;
   skos:scopeNote """Use for passages affording entrance to the rooms of a building"""@en;
@@ -2611,4 +2604,13 @@ dccd:a7a2fd94-6b80-11e5-ac36-77cd38447a8c rdf:type skos:Concept;
   skos:altLabel "water pipe"@en;
   skos:altLabel "water conduit"@en;
   skos:altLabel "conduite d'eau"@fr;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1b920-6b80-11e5-aa78-0f19e75e5a25 rdf:type skos:Concept;
+  skos:scopeNote """Devices or assemblies of devices designed to support artillery and heavy small arms such as machine guns. They range from simple tripods to complex supporting, pivoting, and elevating mechanisms on gun carriages."""@en;
+  skos:closeMatch aat:300221835;
+  skos:altLabel "rolpaard"@nl;
+  skos:altLabel "lafette"@de;
+  skos:altLabel "carriage"@en;
+  skos:altLabel "affût"@fr;
+  skos:altLabel "affuit"@nl;
   skos:inScheme dccd:objectElementType.
