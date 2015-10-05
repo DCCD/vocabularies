@@ -1,8 +1,8 @@
 ##############################################################
-# This file was generated on Mon, 05 Oct 2015 12:26:15 -0600
-# Number of checked and rejected concepts   :  45
+# This file was generated on Mon, 05 Oct 2015 12:31:06 -0600
+# Number of checked and rejected concepts   : 45
 # Number of checked and accepted concepts   : 344
-# Number of concepts that need checking     :  88
+# Number of concepts that need checking     : 88
 # Number of concepts with AAT match assigned: 291
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -174,7 +174,7 @@ dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
   skos:altLabel "dakruiter"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1b470-6b80-11e5-aa71-f3477fb25391 rdf:type skos:Concept;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300004188;
   skos:altLabel "achtervleugel"@nl;
   skos:altLabel "rear wing"@en;
   skos:altLabel "achterhuis"@nl;
@@ -229,7 +229,7 @@ dccd:a7a1b876-6b80-11e5-aa77-efc72bb9da1b rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1b920-6b80-11e5-aa78-0f19e75e5a25 rdf:type skos:Concept;
   skos:scopeNote """Devices or assemblies of devices designed to support artillery and heavy small arms such as machine guns. They range from simple tripods to complex supporting, pivoting, and elevating mechanisms on gun carriages."""@en;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300221835;
   skos:altLabel "rolpaard"@nl;
   skos:altLabel "lafette"@de;
   skos:altLabel "carriage"@en;
@@ -426,7 +426,7 @@ dccd:a7a1e508-6b80-11e5-aab2-ffd373add096 rdf:type skos:Concept;
   skos:altLabel "abdijkerk"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1e5b2-6b80-11e5-aab3-537400f848ac rdf:type skos:Concept;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300002526;
   skos:altLabel "hintere faciade"@de;
   skos:altLabel "rear facade"@en;
   skos:altLabel "façade postérieure"@fr;
@@ -507,7 +507,7 @@ dccd:a7a1ee4a-6b80-11e5-aac0-f39e6fcad391 rdf:type skos:Concept;
   skos:altLabel "mur défensif"@fr;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1f17e-6b80-11e5-aac5-03f16b00739e rdf:type skos:Concept;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300133704;
   skos:altLabel "kamer"@nl;
   skos:altLabel "zimmer"@de;
   skos:altLabel "room"@en;
@@ -538,7 +538,7 @@ dccd:a7a1f6b0-6b80-11e5-aacd-2b888e92ae79 rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1f75a-6b80-11e5-aace-73b5fb21de31 rdf:type skos:Concept;
   skos:scopeNote """Large boxes with hinged lids intended for the storage of textiles, clothing, and other articles """@en;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300038992;
   skos:altLabel "truhe"@de;
   skos:altLabel "box"@en;
   skos:altLabel "kiste"@de;
@@ -571,7 +571,7 @@ dccd:a7a1f96c-6b80-11e5-aad1-af8e72a87100 rdf:type skos:Concept;
   skos:altLabel "gracht"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a206fa-6b80-11e5-aae2-03b9997c048d rdf:type skos:Concept;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300000824;
   skos:altLabel "abfallgrube"@de;
   skos:altLabel "waste pit"@en;
   skos:altLabel "fosse à déchets"@fr;
@@ -833,7 +833,7 @@ dccd:a7a21e6a-6b80-11e5-ab02-4f85fec033c5 rdf:type skos:Concept;
   skos:altLabel "bovendek"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a21fc8-6b80-11e5-ab04-7316a38eb4c3 rdf:type skos:Concept;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300197197;
   skos:altLabel "dose"@de;
   skos:altLabel "box"@en;
   skos:altLabel "boîte"@fr;
@@ -1146,7 +1146,7 @@ dccd:a7a2437c-6b80-11e5-ab35-1f9ef4aefe4f rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 dccd:a7a244c6-6b80-11e5-ab37-db050af39099 rdf:type skos:Concept;
   skos:scopeNote """Rafters which are at right angles to the eaves of a roof and extend from the plate to the ridgeboard """@en;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300002424;
   skos:altLabel "dachsparren"@de;
   skos:altLabel "rafe"@de;
   skos:altLabel "rofe"@de;
@@ -1298,7 +1298,7 @@ dccd:a7a25b78-6b80-11e5-ab56-6721a968c026 rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 dccd:a7a25c22-6b80-11e5-ab57-eb22fc13837a rdf:type skos:Concept;
   skos:scopeNote """Parallel beams used to support floor and ceiling loads and supported in turn by larger beams, girders, bearing walls, or other members. """@en;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300001544;
   skos:altLabel "common joist"@en;
   skos:altLabel "kindbalken"@de;
   skos:altLabel "joist"@en;
@@ -1457,7 +1457,7 @@ dccd:a7a26762-6b80-11e5-ab68-6780e4cc4d70 rdf:type skos:Concept;
   skos:altLabel "lade"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2680c-6b80-11e5-ab69-cb98b6ec69b6 rdf:type skos:Concept;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300005567;
   skos:altLabel "landgut"@de;
   skos:altLabel "country estate"@en;
   skos:altLabel "domaine"@fr;
@@ -2120,7 +2120,7 @@ dccd:a7a2bb22-6b80-11e5-abdb-57403151de1c rdf:type skos:Concept;
 dccd:a7a2bbd6-6b80-11e5-abdc-9b09981608e9 rdf:type skos:Concept;
   skos:scopeNote """Use for tall structures that are at least roughly pyramidal, polygonal, or conical and that rise from towers or roofs """@en;
   skos:exactMatch aat:300003615;
-  skos:closeMatch aat:3;
+  skos:closeMatch aat:300004847;
   skos:altLabel "turm"@de;
   skos:altLabel "tower"@en;
   skos:altLabel "tour"@fr;
