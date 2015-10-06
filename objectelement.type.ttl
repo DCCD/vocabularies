@@ -1,10 +1,10 @@
 ##############################################################
-# This file was generated on Tue, 06 Oct 2015 14:58:41 -0600
+# This file was generated on Tue, 06 Oct 2015 15:04:17 -0600
 # Number of checked and rejected concepts     : 103
-# Number of checked and accepted concepts     : 370
-# Number of concepts that need checking       : 10
-# Number of concepts with AAT match assigned  : 365
-# Number of concepts with only broad AAT match: 101
+# Number of checked and accepted concepts     : 369
+# Number of concepts that need checking       : 11
+# Number of concepts with AAT match assigned  : 364
+# Number of concepts with only broad AAT match: 100
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -3100,16 +3100,6 @@ dccd:a7a1fd22-6b80-11e5-aad3-1b41b1704c65 rdf:type skos:Concept;
   skos:altLabel "vakwerkbouw"@nl;
   skos:altLabel "fachwerkbau"@de;
   skos:inScheme dccd:objectElementType.
-dccd:a7a1f426-6b80-11e5-aac9-dfac25af0b6e rdf:type skos:Concept;
-  skos:scopeNote """An obstruction placed in tidal waters, or wholly or partially across a river, to direct the passage of fish."""@en;
-  skos:broadMatch aat:300247419;
-  skos:altLabel "fischwehr"@de;
-  skos:altLabel "temps pour la pêche"@fr;
-  skos:altLabel "visweer"@nl;
-  skos:prefLabel "fishing weir"@en;
-  skos:altLabel "kiddle"@en;
-  skos:altLabel "fishgarth"@en;
-  skos:inScheme dccd:objectElementType.
 dccd:02e8846a-6c55-11e5-9a26-5b6cbc576023 rdf:type skos:Concept;
   skos:scopeNote """Section of a building, roofed at an angle to the (often broader and taller) main range."""@en;
   skos:exactMatch aat:300004188;
@@ -3425,6 +3415,17 @@ dccd:a7a23b8e-6b80-11e5-ab2b-b78839bafed9 rdf:type skos:Concept;
   skos:prefLabel "floor ceiling"@en;
   skos:prefLabel "vaigrage de fond"@fr;
   skos:prefLabel "buikdenning"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1f426-6b80-11e5-aac9-dfac25af0b6e rdf:type skos:Concept;
+  skos:scopeNote """An obstruction placed in tidal waters, or wholly or partially across a river, to direct the passage of fish."""@en;
+  skos:editorialNote: """fr, nl and de terms need checking."""@en;
+  skos:broadMatch aat:300247419;
+  skos:altLabel "fischwehr"@de;
+  skos:altLabel "temps pour la pêche"@fr;
+  skos:altLabel "visweer"@nl;
+  skos:prefLabel "fishing weir"@en;
+  skos:altLabel "kiddle"@en;
+  skos:altLabel "fishgarth"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2c3b0-6b80-11e5-abe8-872f0307e16a rdf:type skos:Concept;
   skos:scopeNote """In complex castles, the spaces between the outer and inner walls """@en;
