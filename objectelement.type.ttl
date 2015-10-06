@@ -1,9 +1,10 @@
 ##############################################################
-# This file was generated on Tue, 06 Oct 2015 14:52:14 -0600
-# Number of checked and rejected concepts   : 103
-# Number of checked and accepted concepts   : 370
-# Number of concepts that need checking     : 10
-# Number of concepts with AAT match assigned: 365
+# This file was generated on Tue, 06 Oct 2015 14:58:41 -0600
+# Number of checked and rejected concepts     : 103
+# Number of checked and accepted concepts     : 370
+# Number of concepts that need checking       : 10
+# Number of concepts with AAT match assigned  : 365
+# Number of concepts with only broad AAT match: 101
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
