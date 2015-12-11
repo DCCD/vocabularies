@@ -1,10 +1,10 @@
 ##############################################################
-# This file was generated on Thu, 08 Oct 2015 11:53:03 -0600
-# Number of checked and rejected concepts     : 118
-# Number of checked and accepted concepts     : 338
-# Number of concepts that need checking       : 28
-# Number of concepts with AAT match assigned  : 335
-# Number of concepts with only broad AAT match: 82
+# This file was generated on Fri, 11 Dec 2015 10:57:59 -0700
+# Number of checked and rejected concepts     : 119
+# Number of checked and accepted concepts     : 346
+# Number of concepts that need checking       : 19
+# Number of concepts with AAT match assigned  : 344
+# Number of concepts with only broad AAT match: 88
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -320,6 +320,14 @@ dccd:a7a1c19a-6b80-11e5-aa80-93558bd0795b rdf:type skos:Concept;
   skos:prefLabel "tie beam"@en;
   skos:prefLabel "entrait"@fr;
   skos:prefLabel "gebintbalk"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1d022-6b80-11e5-aa96-d7590262ad57 rdf:type skos:Concept;
+  skos:scopeNote """Thick plank of wood"""@en;
+  skos:broadMatch aat:300012825;
+  skos:altLabel "bohle"@de;
+  skos:altLabel "plaat"@nl;
+  skos:altLabel "slab"@en;
+  skos:altLabel "plaque"@fr;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1cba4-6b80-11e5-aa8f-7b893ed983e4 rdf:type skos:Concept;
   skos:scopeNote """Specific type of strake"""@en;
@@ -754,6 +762,14 @@ dccd:a7a206fa-6b80-11e5-aae2-03b9997c048d rdf:type skos:Concept;
   skos:prefLabel "fosse à déchets"@fr;
   skos:prefLabel "afvalkuil"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a201be-6b80-11e5-aada-076472dd2f4b rdf:type skos:Concept;
+  skos:scopeNote """Wall crowning consisting of architrave, frieze and cornice together"""@en;
+  skos:closeMatch aat:300001770;
+  skos:altLabel "balkenlage worauf zimmerwerk ruht"@de;
+  skos:altLabel "tafelment"@nl;
+  skos:altLabel "entablature"@en;
+  skos:altLabel "entablature"@fr;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a20268-6b80-11e5-aadb-b39c90c3cd65 rdf:type skos:Concept;
   skos:scopeNote """Paired timber below the roof plane, which is an element of a trasverse fram.  It supports purlines and the roof cladding."""@en;
   skos:exactMatch aat:300002440;
@@ -1027,6 +1043,14 @@ dccd:a7a2264e-6b80-11e5-ab0e-ff0eba6d3e67 rdf:type skos:Concept;
   skos:altLabel "prow"@en;
   skos:prefLabel "bow"@en;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2284c-6b80-11e5-ab11-0ffd1cfc9fc3 rdf:type skos:Concept;
+  skos:scopeNote """Floor timber specific to watercraft"""@en;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "legger"@nl;
+  skos:prefLabel "bodenwrange"@de;
+  skos:prefLabel "floor timber"@en;
+  skos:prefLabel "varangue plate"@fr;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a221bc-6b80-11e5-ab07-030941e66f8c rdf:type skos:Concept;
   skos:scopeNote """The rear part of a ship"""@en;
   skos:broadMatch aat:300212614;
@@ -1078,6 +1102,14 @@ dccd:a7a23602-6b80-11e5-ab26-2719b631ebe1 rdf:type skos:Concept;
   skos:prefLabel "foundation pile"@en;
   skos:prefLabel "pilot de fondation"@fr;
   skos:prefLabel "funderingspaal"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a22aea-6b80-11e5-ab15-c365bef70e8a rdf:type skos:Concept;
+  skos:scopeNote """Projecting, scroll-shaped members serving as brackets or corbels. Often used to support entablatures and cornices over doorways and windows."""@en;
+  skos:exactMatch aat:300075330;
+  skos:prefLabel "konsole"@de;
+  skos:prefLabel "bracket"@en;
+  skos:prefLabel "console"@fr;
+  skos:prefLabel "console"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a237f6-6b80-11e5-ab29-6308fe52a0ff rdf:type skos:Concept;
   skos:scopeNote """Use for passages affording entrance to the rooms of a building"""@en;
@@ -1708,14 +1740,6 @@ dccd:a7a28904-6b80-11e5-ab98-cbd964da20b9 rdf:type skos:Concept;
   skos:prefLabel "chaire à prêcher"@fr;
   skos:prefLabel "preekstoel"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a28a4e-6b80-11e5-ab9a-9342a386dc36 rdf:type skos:Concept;
-  skos:exactMatch aat:300024976;
-  skos:altLabel "wagenrad"@de;
-  skos:prefLabel "rad"@de;
-  skos:prefLabel "wheel"@en;
-  skos:prefLabel "roue"@fr;
-  skos:prefLabel "wiel"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a28ba2-6b80-11e5-ab9c-5f9eed2dbfb9 rdf:type skos:Concept;
   skos:scopeNote """Use for the dining halls of monasteries or other religious institutions """@en;
   skos:exactMatch aat:300004347;
@@ -2237,6 +2261,14 @@ dccd:a7a2ca36-6b80-11e5-abf2-9bda48c69379 rdf:type skos:Concept;
   skos:prefLabel "wortelstelsel"@nl;
   skos:prefLabel "roots"@en;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2b7da-6b80-11e5-abd6-b3eafbd487f6 rdf:type skos:Concept;
+  skos:scopeNote """Big wooden post, supported on both sides by short, upward braces"""@en;
+  skos:broadMatch aat:300078053;
+  skos:prefLabel "pilier (de bois)"@fr;
+  skos:prefLabel "freestanding post"@en;
+  skos:prefLabel "freistehender ständer"@de;
+  skos:prefLabel "standvink"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2b334-6b80-11e5-abcf-1fad00f6e162 rdf:type skos:Concept;
   skos:scopeNote """Wheels made to rotate by the direct action of water."""@en;
   skos:broadMatch aat:300024617;
@@ -2361,15 +2393,6 @@ dccd:a7a2ea2a-6b80-11e5-ac1d-7feff7a3f669 rdf:type skos:Concept;
   skos:prefLabel "sablière"@fr;
   skos:prefLabel "muurplaat"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2eaca-6b80-11e5-ac1e-6b2d55b7e84a rdf:type skos:Concept;
-  skos:scopeNote """Series of vertical structural members which act as the supporting elements in a wall or partition."""@en;
-  skos:exactMatch aat:300001882;
-  skos:prefLabel "wandstijl"@nl;
-  skos:prefLabel "wandständer"@de;
-  skos:prefLabel "stud"@en;
-  skos:prefLabel "poteau intermédiaire"@fr;
-  skos:altLabel "muurstijl"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a2e1ba-6b80-11e5-ac10-6f527066854b rdf:type skos:Concept;
   skos:scopeNote """Use for the intersections of the sloping sides of roofs Use for the horizontal timbers laid across the principal rafters and supporting the common rafters in a roof """@en;
   skos:broadMatch aat:300002399;
@@ -2396,6 +2419,15 @@ dccd:a7a2cfae-6b80-11e5-abf6-fb6ac9d81235 rdf:type skos:Concept;
   skos:prefLabel "zandstrook"@nl;
   skos:prefLabel "galbord"@fr;
   skos:prefLabel "garboard strake"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2eaca-6b80-11e5-ac1e-6b2d55b7e84a rdf:type skos:Concept;
+  skos:scopeNote """Series of vertical structural members which act as the supporting elements in a wall or partition."""@en;
+  skos:exactMatch aat:300001882;
+  skos:prefLabel "wandstijl"@nl;
+  skos:prefLabel "wandständer"@de;
+  skos:prefLabel "stud"@en;
+  skos:prefLabel "poteau intermédiaire"@fr;
+  skos:altLabel "muurstijl"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2cf04-6b80-11e5-abf5-33866e83aa74 rdf:type skos:Concept;
   skos:scopeNote """Heavy transverse beam in which the mast is attached."""@en;
@@ -2738,6 +2770,22 @@ dccd:02e8846a-6c55-11e5-9a26-5b6cbc576023 rdf:type skos:Concept;
   skos:altLabel "vleugel"@nl;
   skos:prefLabel "aile"@fr;
   skos:inScheme dccd:objectElementType.
+dccd:a7a23b8e-6b80-11e5-ab2b-b78839bafed9 rdf:type skos:Concept;
+  skos:scopeNote """Closely juxtaposed plankls on the rafters etc in the inside of the hull"""@en;
+  skos:broadMatch aat:14;
+  skos:prefLabel "bodenwegerung"@de;
+  skos:prefLabel "floor ceiling"@en;
+  skos:prefLabel "vaigrage de fond"@fr;
+  skos:prefLabel "buikdenning"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1f426-6b80-11e5-aac9-dfac25af0b6e rdf:type skos:Concept;
+  skos:scopeNote """An obstruction placed in tidal waters, or wholly or partially across a river, to direct the passage of fish."""@en;
+  skos:broadMatch aat:300247419;
+  skos:prefLabel "visweer"@nl;
+  skos:prefLabel "fish weir"@en;
+  skos:prefLabel "fischwehr"@de;
+  skos:altLabel "kiddle"@en;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2d242-6b80-11e5-abfa-ef7dcc407f8f rdf:type skos:Concept;
   skos:scopeNote """ Buildings or devices with sails or vanes that turn in the wind and generate power. The devices operate by means of a rotating shaft on which sails are mounted or placed at an angle so that the force of wind against them causes rotation, which in turn produced energy. Windmills were historically used chiefly in flat districts for operating a mill to grind grain or pump water; the older and most characteristic European form consists of a conical mill-house with a dome or cap supporting four sails. Modern devices tap the wind to produce electricity by using a disk of sails mounted on a framework."""@en;
   skos:exactMatch aat:300006273;
@@ -2924,6 +2972,15 @@ dccd:a7a2ad58-6b80-11e5-abca-ebfe3098e810 rdf:type skos:Concept;
   skos:prefLabel "steering oar"@en;
   skos:prefLabel "aviron de queue"@fr;
   skos:prefLabel "stuurriem"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:0f56a390-6c59-11e5-9a28-d354e8d82baf rdf:type skos:Concept;
+  skos:scopeNote """Vertical timber in a timber-framed wall which in contrast to a post, is hardly load-bearing."""@en;
+  skos:broadMatch aat:300078053;
+  skos:prefLabel "stijl"@nl;
+  skos:prefLabel "puncheon"@en;
+  skos:prefLabel "stiel"@de;
+  skos:altLabel "stud (short)"@en;
+  skos:prefLabel "potelet"@fr;
   skos:inScheme dccd:objectElementType.
 dccd:a7a20c4a-6b80-11e5-aaea-af22b1d087a7 rdf:type skos:Concept;
   skos:scopeNote """Largest and lowest-pitched instruments of the violin family, having four, or more rarely, five strings, and varying considerably in size and shape."""@en;
@@ -3130,6 +3187,23 @@ dccd:2883e41c-6de0-11e5-bfb5-cb19728dc1ff rdf:type skos:Concept;
   skos:prefLabel "lijstwerk"@nl;
   skos:altLabel "molding"@en;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2c3b0-6b80-11e5-abe8-872f0307e16a rdf:type skos:Concept;
+  skos:scopeNote """In complex castles, the spaces between the outer and inner walls """@en;
+  skos:exactMatch aat:300003688;
+  skos:prefLabel "ouvrage avancé"@fr;
+  skos:prefLabel "vorburg"@de;
+  skos:prefLabel "voorburcht"@nl;
+  skos:prefLabel "outer bailey"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a28a4e-6b80-11e5-ab9a-9342a386dc36 rdf:type skos:Concept;
+  skos:scopeNote """Circular frameworks of wood, metal, or other hard material often with cogs or teeth on the rim used to transmit or modify force and motion in machinery or a mechanical contrivance."""@en;
+  skos:exactMatch aat:300024976;
+  skos:altLabel "wagenrad"@de;
+  skos:prefLabel "rad"@de;
+  skos:prefLabel "wheel"@en;
+  skos:prefLabel "roue"@fr;
+  skos:prefLabel "wiel"@nl;
+  skos:inScheme dccd:objectElementType.
 
 ##############################################################
 Following entries are missing any sort of AAT match
@@ -3146,14 +3220,6 @@ dccd:a7a27ea0-6b80-11e5-ab88-0b3c1f6771af rdf:type skos:Concept;
   skos:prefLabel "scion"@fr;
   skos:prefLabel "oplanger"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:0f56a390-6c59-11e5-9a28-d354e8d82baf rdf:type skos:Concept;
-  skos:scopeNote """Vertical timber in a timber-framed wall which in contrast to a post, is hardly load-bearing."""@en;
-  skos:prefLabel "stijl"@nl;
-  skos:prefLabel "puncheon"@en;
-  skos:prefLabel "stiel"@de;
-  skos:altLabel "stud (short)"@en;
-  skos:prefLabel "potelet"@fr;
-  skos:inScheme dccd:objectElementType.
 
 ##############################################################
 Following entries need further checking by content specialists
@@ -3168,22 +3234,6 @@ dccd:a7a1b470-6b80-11e5-aa71-f3477fb25391 rdf:type skos:Concept;
   skos:altLabel "arrière-corps (de la maison)"@fr;
   skos:prefLabel "aisle arriere"@fr;
   skos:inScheme dccd:objectElementType.
-dccd:a7a1d022-6b80-11e5-aa96-d7590262ad57 rdf:type skos:Concept;
-  skos:editorialNote: """Needs clarification.  Panneau and plaat used in DCCD."""@en;
-  skos:altLabel "bohle"@de;
-  skos:altLabel "rähm"@de;
-  skos:altLabel "plate"@en;
-  skos:altLabel "feuille"@fr;
-  skos:altLabel "panneau"@fr;
-  skos:altLabel "plaat"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a1eaf8-6b80-11e5-aabb-9376e14a7ea3 rdf:type skos:Concept;
-  skos:editorialNote: """What is this? Travee used in DCCD."""@en;
-  skos:altLabel "joch"@de;
-  skos:altLabel "bay"@en;
-  skos:altLabel "travée"@fr;
-  skos:altLabel "travee"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a1f8a4-6b80-11e5-aad0-136968eb5e43 rdf:type skos:Concept;
   skos:editorialNote: """needs a scope note"""@en;
   skos:broadMatch aat:300178758;
@@ -3191,13 +3241,6 @@ dccd:a7a1f8a4-6b80-11e5-aad0-136968eb5e43 rdf:type skos:Concept;
   skos:prefLabel "disc wheel"@en;
   skos:prefLabel "roue à toile pleine"@fr;
   skos:prefLabel "schijfwiel"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a201be-6b80-11e5-aada-076472dd2f4b rdf:type skos:Concept;
-  skos:editorialNote: """Needs checking with Dirk Jan de Vries. Tafelment used in DCCD."""@en;
-  skos:altLabel "balkenlage worauf zimmerwerk ruht"@de;
-  skos:altLabel "tabling"@en;
-  skos:altLabel "chaise stercoraire"@fr;
-  skos:altLabel "tafelment"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a209a2-6b80-11e5-aae6-87f34dd417e1 rdf:type skos:Concept;
   skos:editorialNote: """Unclear concept.  Needs checking."""@en;
@@ -3219,21 +3262,6 @@ dccd:a7a2156e-6b80-11e5-aaf8-d72532287456 rdf:type skos:Concept;
   skos:prefLabel "schiffsboden"@de;
   skos:prefLabel "bottom (floor)"@en;
   skos:prefLabel "carène"@fr;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2284c-6b80-11e5-ab11-0ffd1cfc9fc3 rdf:type skos:Concept;
-  skos:editorialNote: """Specific to Watercraft?!? Legger used in DCCD."""@en;
-  skos:altLabel "legger"@nl;
-  skos:prefLabel "bodenwrange"@de;
-  skos:prefLabel "floor timber"@en;
-  skos:prefLabel "varangue plate"@fr;
-  skos:prefLabel "buikstuk"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a22aea-6b80-11e5-ab15-c365bef70e8a rdf:type skos:Concept;
-  skos:editorialNote: """Needs clarification"""@en;
-  skos:prefLabel "konsole"@de;
-  skos:prefLabel "bracket"@en;
-  skos:prefLabel "console"@fr;
-  skos:prefLabel "console"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a242d2-6b80-11e5-ab34-bf914e9572a7 rdf:type skos:Concept;
   skos:editorialNote: """Currently linked to 'soft furnishing'.  Either an error in translation or should be removed from DCCD."""@en;
@@ -3293,24 +3321,15 @@ dccd:a7a28c42-6b80-11e5-ab9d-8b53286b9c54 rdf:type skos:Concept;
   skos:prefLabel "refugium"@fr;
   skos:prefLabel "refugehuis"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2b7da-6b80-11e5-abd6-b3eafbd487f6 rdf:type skos:Concept;
-  skos:editorialNote: """No idea what this is.  Standvink used in DCCD."""@en;
-  skos:altLabel "standvink"@nl;
-  skos:altLabel "pilier"@fr;
-  skos:altLabel "freestanding post"@en;
-  skos:altLabel "freistehender ständer"@de;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a2d774-6b80-11e5-ac02-573ced692617 rdf:type skos:Concept;
   skos:scopeNote """Use for wells sunk to extract water from a zone of saturation """@en;
   skos:editorialNote: """Bohrloch@de needs confirming."""@en;
   skos:exactMatch aat:300152327;
   skos:altLabel "water well"@en;
-  skos:altLabel "cisterne"@fr;
   skos:prefLabel "well"@en;
   skos:prefLabel "waterput"@nl;
-  skos:prefLabel "puits"@fr;
+  skos:prefLabel "puits à eau"@fr;
   skos:prefLabel "Brunnen"@de;
-  skos:altLabel "Bohrloch"@de;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2e58e-6b80-11e5-ac16-e7b5b004826d rdf:type skos:Concept;
   skos:editorialNote: """French terms need checking. scopeNote also needed."""@en;
@@ -3333,25 +3352,6 @@ dccd:a7a2d38c-6b80-11e5-abfc-5b71ee2d176a rdf:type skos:Concept;
   skos:altLabel "wegeringplank"@nl;
   skos:altLabel "bodenwegerung"@de;
   skos:inScheme dccd:objectElementType.
-dccd:a7a23b8e-6b80-11e5-ab2b-b78839bafed9 rdf:type skos:Concept;
-  skos:editorialNote: """What is this?  Buikdenning used in DCCD."""@en;
-  skos:altLabel "vaigrage de cale"@fr;
-  skos:prefLabel "bodenwegerung"@de;
-  skos:prefLabel "floor ceiling"@en;
-  skos:prefLabel "vaigrage de fond"@fr;
-  skos:prefLabel "buikdenning"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a1f426-6b80-11e5-aac9-dfac25af0b6e rdf:type skos:Concept;
-  skos:scopeNote """An obstruction placed in tidal waters, or wholly or partially across a river, to direct the passage of fish."""@en;
-  skos:editorialNote: """fr, nl and de terms need checking."""@en;
-  skos:broadMatch aat:300247419;
-  skos:altLabel "fischwehr"@de;
-  skos:altLabel "temps pour la pêche"@fr;
-  skos:altLabel "visweer"@nl;
-  skos:prefLabel "fishing weir"@en;
-  skos:altLabel "kiddle"@en;
-  skos:altLabel "fishgarth"@en;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a28ed6-6b80-11e5-aba1-4b3605e4f5b9 rdf:type skos:Concept;
   skos:editorialNote: """Needs a scope note"""@en;
   skos:broadMatch aat:300212614;
@@ -3360,27 +3360,13 @@ dccd:a7a28ed6-6b80-11e5-aba1-4b3605e4f5b9 rdf:type skos:Concept;
   skos:prefLabel "rouf"@fr;
   skos:prefLabel "roef"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2c3b0-6b80-11e5-abe8-872f0307e16a rdf:type skos:Concept;
-  skos:scopeNote """In complex castles, the spaces between the outer and inner walls """@en;
-  skos:editorialNote: """de,nl,fr terms need checking.  Voorburcht used in DCCD."""@en;
-  skos:exactMatch aat:300003688;
-  skos:prefLabel "bailey"@en;
-  skos:altLabel "voorburcht"@nl;
-  skos:altLabel "ouvrage avancé"@fr;
-  skos:altLabel "château-bas"@fr;
-  skos:altLabel "outer bailey"@en;
-  skos:altLabel "vorburg"@de;
-  skos:altLabel "niederburg"@de;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a1e314-6b80-11e5-aaaf-bff7d75a954f rdf:type skos:Concept;
   skos:scopeNote """Curved timbers scarfed together to form the lower part of the compound rib of a ship"""@en;
   skos:editorialNote: """de, fr and nl terms need confirming.  Zitter used in DCCD."""@en;
   skos:broadMatch aat:300212614;
-  skos:altLabel "genou de couple"@fr;
-  skos:altLabel "sitzer"@de;
-  skos:altLabel "sitter"@de;
+  skos:prefLabel "genou de couple"@fr;
   skos:prefLabel "first futtock"@en;
-  skos:altLabel "zitter"@nl;
+  skos:prefLabel "zitter"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
   skos:scopeNote """A ridge turret is a turret or small tower constructed over the ridge or apex between two or more sloping roofs of a building. It is usually built either as an architectural ornament for purely decorative purposes or else for the practical housing of a clock, a bell or an observation platform. Its function is thus different from that of a roof lantern, despite a frequent similarity of external appearance."""@en;
@@ -3412,15 +3398,6 @@ dccd:a7a28472-6b80-11e5-ab91-17072903c8e8 rdf:type skos:Concept;
 ##############################################################
 Concepts with no scope notes 
 ##############################################################
-dccd:a7a28a4e-6b80-11e5-ab9a-9342a386dc36 rdf:type skos:Concept;
-  skos:editorialNote: """Superfluous term"""@en;
-  skos:exactMatch aat:300024976;
-  skos:altLabel "wagenrad"@de;
-  skos:prefLabel "rad"@de;
-  skos:prefLabel "wheel"@en;
-  skos:prefLabel "roue"@fr;
-  skos:prefLabel "wiel"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a2a9ac-6b80-11e5-abc6-873528dfe3ec rdf:type skos:Concept;
   skos:editorialNote: """Needs scope note"""@en;
   skos:broadMatch aat:300212614;
