@@ -1,10 +1,10 @@
 ##############################################################
-# This file was generated on Fri, 11 Dec 2015 10:57:59 -0700
-# Number of checked and rejected concepts     : 119
-# Number of checked and accepted concepts     : 346
-# Number of concepts that need checking       : 19
-# Number of concepts with AAT match assigned  : 344
-# Number of concepts with only broad AAT match: 88
+# This file was generated on Mon, 14 Dec 2015 13:58:52 -0700
+# Number of checked and rejected concepts     : 122
+# Number of checked and accepted concepts     : 358
+# Number of concepts that need checking       : 6
+# Number of concepts with AAT match assigned  : 356
+# Number of concepts with only broad AAT match: 96
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -560,6 +560,15 @@ dccd:a7a1d9dc-6b80-11e5-aaa1-437e1e526a7a rdf:type skos:Concept;
   skos:prefLabel "putlog"@en;
   skos:prefLabel "gerüstholz"@de;
   skos:prefLabel "korteling"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1f8a4-6b80-11e5-aad0-136968eb5e43 rdf:type skos:Concept;
+  skos:scopeNote """A wheel without spokes"""@en;
+  skos:scopeNote """Een schijfwiel is een wiel zonder spaken. Bij treinen worden praktisch alleen dit soort wielen toegepast."""@nl;
+  skos:broadMatch aat:300178758;
+  skos:prefLabel "scheibenrad"@de;
+  skos:prefLabel "disc wheel"@en;
+  skos:prefLabel "roue à toile pleine"@fr;
+  skos:prefLabel "schijfwiel"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1f2d2-6b80-11e5-aac7-f7ab70dd5bd4 rdf:type skos:Concept;
   skos:scopeNote """ A framework of interwoven rods, poles, or branches; used with daub as a building material."""@en;
@@ -1540,6 +1549,15 @@ dccd:a7a2656e-6b80-11e5-ab65-7f24dce16cb6 rdf:type skos:Concept;
   skos:prefLabel "trou"@fr;
   skos:prefLabel "kuil"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2641a-6b80-11e5-ab63-036147e2b404 rdf:type skos:Concept;
+  skos:scopeNote """Strongly curved wood"""@en;
+  skos:scopeNote """Sterk gekromd hout."""@nl;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "krummer"@de;
+  skos:prefLabel "crock"@en;
+  skos:prefLabel "bois courbe"@fr;
+  skos:prefLabel "krommer"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a25f88-6b80-11e5-ab5c-0bf38ec1ed1d rdf:type skos:Concept;
   skos:scopeNote """Rounded vessels that are generally wider than they are high, usually hemispherical or nearly so. A bowl may have a spreading base or foot ring and sometimes two handles or a cover. Distinguished from a cup, which is rather deep than wide."""@en;
   skos:exactMatch aat:300203596;
@@ -1590,6 +1608,14 @@ dccd:a7a26f32-6b80-11e5-ab74-a36e7bc0633a rdf:type skos:Concept;
   skos:prefLabel "poutre maîtresse"@fr;
   skos:prefLabel "moerbalk"@nl;
   skos:prefLabel "floor beam"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a26d3e-6b80-11e5-ab71-e7724b8494c6 rdf:type skos:Concept;
+  skos:scopeNote """Foundation hole for a mast, consisting of a heavy wooden block placed on the top of the keelson"""@en;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "mastblock"@de;
+  skos:prefLabel "mast step"@en;
+  skos:prefLabel "carlingue de mât"@fr;
+  skos:prefLabel "mastblok"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a27270-6b80-11e5-ab79-affe6c8be6a3 rdf:type skos:Concept;
   skos:scopeNote """Sound-producing apparatuses whose primary function is to play music """@en;
@@ -1784,6 +1810,15 @@ dccd:a7a29020-6b80-11e5-aba3-db1826e02d86 rdf:type skos:Concept;
   skos:prefLabel "rudder"@en;
   skos:prefLabel "gouvernail"@fr;
   skos:prefLabel "roer"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2795a-6b80-11e5-ab80-eba838a4233a rdf:type skos:Concept;
+  skos:scopeNote """A support beam which is placed under, or against something."""@en;
+  skos:broadMatch aat:300001834;
+  skos:altLabel "langschoor"@nl;
+  skos:prefLabel "strebe"@de;
+  skos:prefLabel "(long) brace"@en;
+  skos:prefLabel "décharge"@fr;
+  skos:prefLabel "schoor"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a289a4-6b80-11e5-ab99-eb953b10d27e rdf:type skos:Concept;
   skos:scopeNote """Piece of wood attached transversely to a ship's mast to support and guide the sail."""@en;
@@ -2007,13 +2042,6 @@ dccd:a7a2a0f6-6b80-11e5-abb9-4f73d1cc241c rdf:type skos:Concept;
   skos:prefLabel "pelle"@fr;
   skos:prefLabel "schop"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2a9ac-6b80-11e5-abc6-873528dfe3ec rdf:type skos:Concept;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "bugholz"@de;
-  skos:prefLabel "prow block"@en;
-  skos:prefLabel "épaulure"@fr;
-  skos:prefLabel "stevenplaat"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a2a394-6b80-11e5-abbd-8b26b982493b rdf:type skos:Concept;
   skos:scopeNote """A particular type of spar that supports the sail"""@en;
   skos:broadMatch aat:300212614;
@@ -2037,16 +2065,6 @@ dccd:a7a2acb8-6b80-11e5-abc9-4734b7b45d4c rdf:type skos:Concept;
   skos:prefLabel "steering gear"@en;
   skos:prefLabel "appareillage à gouverner"@fr;
   skos:prefLabel "stuurinrichting"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2a1a0-6b80-11e5-abba-132b7af2a434 rdf:type skos:Concept;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "cadre"@fr;
-  skos:prefLabel "frame"@en;
-  skos:prefLabel "rahmen"@de;
-  skos:prefLabel "spant"@nl;
-  skos:altLabel "couple"@fr;
-  skos:altLabel "spant"@de;
-  skos:altLabel "kader"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2aeac-6b80-11e5-abcc-9f4a262ef628 rdf:type skos:Concept;
   skos:scopeNote """Articles of furniture consisting of a flat, slablike top supported on one or more legs or supports """@en;
@@ -2454,6 +2472,15 @@ dccd:a7a2d0f8-6b80-11e5-abf8-ff3312346775 rdf:type skos:Concept;
   skos:prefLabel "wrang"@nl;
   skos:prefLabel "varangue"@fr;
   skos:prefLabel "floor timber (v-shaped)"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2d774-6b80-11e5-ac02-573ced692617 rdf:type skos:Concept;
+  skos:scopeNote """Use for wells sunk to extract water from a zone of saturation """@en;
+  skos:exactMatch aat:300152327;
+  skos:altLabel "water well"@en;
+  skos:prefLabel "well"@en;
+  skos:prefLabel "waterput"@nl;
+  skos:prefLabel "puits à eau"@fr;
+  skos:prefLabel "Brunnen"@de;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2ecc8-6b80-11e5-ac21-8fac672b5a7b rdf:type skos:Concept;
   skos:scopeNote """A ram was a weapon carried by varied types of ships, dating back to antiquity. The weapon comprised an underwater prolongation of the bow of the ship to form an armoured beak, usually between six and 12 feet (2–4 m) in length. This would be driven into the hull of an enemy ship in order to puncture the hull and sink, or at least disable, that ship."""@en;
@@ -3105,14 +3132,6 @@ dccd:a7a26bf4-6b80-11e5-ab6f-3f4f98fb0e84 rdf:type skos:Concept;
   skos:prefLabel "luth"@fr;
   skos:prefLabel "luit"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a26de8-6b80-11e5-ab72-1fef4843fbf5 rdf:type skos:Concept;
-  skos:broadMatch aat:300212614;
-  skos:altLabel "foundation hole"@en;
-  skos:prefLabel "mastspur"@de;
-  skos:prefLabel "mast step"@en;
-  skos:prefLabel "emplanture de mât"@fr;
-  skos:prefLabel "mastspoor"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a26fd2-6b80-11e5-ab75-eb16ea4df421 rdf:type skos:Concept;
   skos:scopeNote """Slender, vertical, usually nonstructural bars or piers forming a division between doors, screens, or lights of windows; for the small members that divide glazing areas and support the panes or the verticals that separate the panels in panel doors, use 'muntins.'"""@en;
   skos:exactMatch aat:300003092;
@@ -3152,6 +3171,15 @@ dccd:a7a29c5a-6b80-11e5-abb2-4ff0ed7338ae rdf:type skos:Concept;
   skos:prefLabel "bouclier"@fr;
   skos:prefLabel "schild"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a26de8-6b80-11e5-ab72-1fef4843fbf5 rdf:type skos:Concept;
+  skos:scopeNote """A thicker/wider part of the keelson, in which the bottom side of the mast rests.  The foundation hole distributes the pressure of the mast."""@en;
+  skos:broadMatch aat:300212614;
+  skos:altLabel "mast-foundation hole"@en;
+  skos:prefLabel "mastspur"@de;
+  skos:prefLabel "mast step"@en;
+  skos:prefLabel "emplanture de mât"@fr;
+  skos:prefLabel "mastspoor"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2a24a-6b80-11e5-abbb-c37499110f0f rdf:type skos:Concept;
   skos:scopeNote """Material objects contrived for amusement rather than for practical use by children or pets, or intended as collectibles by adults. Toys are generally miniature versions of real beings or objects that lend themselves to imaginative or imitative play. Toys may also be items for use in games. Among the earliest toys were dolls and balls."""@en;
   skos:exactMatch aat:300211037;
@@ -3177,13 +3205,32 @@ dccd:a7a2bd2a-6b80-11e5-abde-dbc036c4f7fc rdf:type skos:Concept;
   skos:prefLabel "escaliers"@fr;
   skos:prefLabel "trap"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a26c94-6b80-11e5-ab70-e341ea1c9c3b rdf:type skos:Concept;
+  skos:scopeNote """Heavy plank resting on the ship sides, with a square hole in the rear into which the mast fits"""@en;
+  skos:scopeNote """Hier wordt onder mastbank verstaan: een dwarsscheepse zware plank op de bovenzijde van de boorden, met in de achterzijde een vierkant gat, waarin de mast past. Buiten het begrip mastbank, noemt Van Beylen (1985, 151) tevens als alternatieve benamingen ‘mastdoft’ of ‘zeilbank’. De benaming ‘mastdoft’ betekent feitelijk ook mastbank, aangezien een ‘doft’ een roeibank is. Bij van Dale (2005, 2094) wordt onder mastbank echter een nagelbank verstaan."""@nl;
+  skos:broadMatch aat:300212614;
+  skos:altLabel "banc d’étambrai, banc de mât"@fr;
+  skos:altLabel "banc de mât"@fr;
+  skos:prefLabel "mastducht"@de;
+  skos:prefLabel "mast thwart"@en;
+  skos:prefLabel "banc d’étambrai"@fr;
+  skos:prefLabel "mastbank"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a28c42-6b80-11e5-ab9d-8b53286b9c54 rdf:type skos:Concept;
+  skos:scopeNote """Refuges in a city established outside the walls where in times of war and looting monks could take refuge."""@en;
+  skos:scopeNote """Refugiehuizen zijn vluchthuizen in een stad, waar buiten de wallen gevestigde kloosterlingen in tijden van oorlog en plundering de wijk konden nemen."""@nl;
+  skos:exactMatch aat:300265061;
+  skos:prefLabel "refugium"@de;
+  skos:prefLabel "refugium"@en;
+  skos:prefLabel "refugium"@fr;
+  skos:prefLabel "refugehuis"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:2883e41c-6de0-11e5-bfb5-cb19728dc1ff rdf:type skos:Concept;
   skos:scopeNote """Long, regular channels or projections used for finishing and decorative purposes."""@en;
   skos:exactMatch aat:300244017;
   skos:prefLabel "moulding"@en;
   skos:prefLabel "moulure"@fr;
   skos:prefLabel "gesims"@de;
-  skos:altLabel "lijst"@nl;
   skos:prefLabel "lijstwerk"@nl;
   skos:altLabel "molding"@en;
   skos:inScheme dccd:objectElementType.
@@ -3204,55 +3251,61 @@ dccd:a7a28a4e-6b80-11e5-ab9a-9342a386dc36 rdf:type skos:Concept;
   skos:prefLabel "roue"@fr;
   skos:prefLabel "wiel"@nl;
   skos:inScheme dccd:objectElementType.
-
-##############################################################
-Following entries are missing any sort of AAT match
-##############################################################
+dccd:a7a27ea0-6b80-11e5-ab88-0b3c1f6771af rdf:type skos:Concept;
+  skos:scopeNote """Specific to ship building - standing part of a floor timber, to elongate this floor timber."""@en;
+  skos:scopeNote """(VOC - Scheepsbouw): spantdeel dat aansluit op vloerwrang"""@nl;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "oplanger"@nl;
+  skos:prefLabel "futtock"@en;
+  skos:prefLabel "allonge"@fr;
+  skos:prefLabel "auflanger"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2a9ac-6b80-11e5-abc6-873528dfe3ec rdf:type skos:Concept;
+  skos:scopeNote """In river barges the ends of the bottom planks and the horizontal portions of the chines in the aft and stern are often covered by heavy wooden boards or plates, the stern plates.  These reach a few centimetres beyond the ends of the bottom planks and chine-blocks."""@en;
+  skos:scopeNote """De uiteinden van de vlakplanken en de horizontale delen van de kimmen in de voorsteven en de achtersteven, worden bij schepen van het type Zwammerdam afgedekt door zware houten planken of platen, de stevenplaten. Deze steken enkele centimeters uit buiten de uiteinden van de vlakplanken en de kimstukken."""@nl;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "bugholz"@de;
+  skos:prefLabel "prow block"@en;
+  skos:prefLabel "épaulure"@fr;
+  skos:prefLabel "stevenplaat"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2a1a0-6b80-11e5-abba-132b7af2a434 rdf:type skos:Concept;
+  skos:scopeNote """A cross-connection within a ship's hull, which partly constitutes the skeleton thereof.  A frame usually consists of several components (e.g. floor timbers and futtocks)."""@en;
+  skos:scopeNote """Een dwarsverbinding binnen een scheepsromp, die mede het geraamte daarvan vormt. Een spant bestaat meestal uit meerdere delen (b.v. leggers en oplangers). (Rapporten Archeologische Monumentenzorg 144 (2007))"""@nl;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "frame (ship)"@en;
+  skos:prefLabel "spant"@nl;
+  skos:prefLabel "spant"@de;
+  skos:prefLabel "couple"@fr;
+  skos:inScheme dccd:objectElementType.
+dccd:9d4fa7fa-a291-11e5-a079-cba56fb0068e rdf:type skos:Concept;
+  skos:scopeNote """Cases or structures that surround or enclose such items as works of art, mirrors, or documents, serving as support or protection or to call attention, while leaving the items visible."""@en;
+  skos:exactMatch aat:300189814;
+  skos:prefLabel "frame"@en;
+  skos:prefLabel "lijst"@nl;
+  skos:prefLabel "cadre"@fr;
+  skos:prefLabel "rahmen"@de;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a23756-6b80-11e5-ab28-47b8e3d19c0e rdf:type skos:Concept;
-  skos:scopeNote """Field in which a gallows stands"""@en;
+  skos:scopeNote """An open space in which are placed one or more gallows.  In the course of time these fields disappeared, but well into the 18th century they still were to be found in many places, both in the Netherlands and abroad."""@en;
+  skos:broadMatch aat:72;
   skos:prefLabel "galgenacker"@de;
   skos:prefLabel "gallows field"@en;
   skos:prefLabel "galgenveld"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a27ea0-6b80-11e5-ab88-0b3c1f6771af rdf:type skos:Concept;
-  skos:prefLabel "flügelrute"@de;
-  skos:prefLabel "whip"@en;
-  skos:prefLabel "scion"@fr;
-  skos:prefLabel "oplanger"@nl;
-  skos:inScheme dccd:objectElementType.
-
-##############################################################
-Following entries need further checking by content specialists
-##############################################################
 dccd:a7a1b470-6b80-11e5-aa71-f3477fb25391 rdf:type skos:Concept;
-  skos:editorialNote: """arrière-corps (de la maison) FR - needs checking"""@en;
+  skos:scopeNote """A house behind another, tending to be smaller,connected to the front part  by means of a corridor, loggia, or a different kind of structure. Such connections are common in port cities, for example behind canal houses in the city of Amsterdam. It is therefore a separate house."""@en;
+  skos:scopeNote """In de eerste betekenis is het achterhuis een ander, vaak kleiner, huis dat met een (voor)huis is verbonden door middel van een gang, loggia of een ander soort bouwwerk. Dergelijke verbindingen komen vaak voor in havensteden, zoals bijvoorbeeld achter grachtenpanden in de stad Amsterdam. Het gaat dan dus om een apart huis."""@nl;
   skos:closeMatch aat:300004188;
   skos:altLabel "achtervleugel"@nl;
   skos:prefLabel "rear wing"@en;
   skos:prefLabel "achterhuis"@nl;
   skos:prefLabel "hinterhaus"@de;
-  skos:altLabel "arrière-corps (de la maison)"@fr;
-  skos:prefLabel "aisle arriere"@fr;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a1f8a4-6b80-11e5-aad0-136968eb5e43 rdf:type skos:Concept;
-  skos:editorialNote: """needs a scope note"""@en;
-  skos:broadMatch aat:300178758;
-  skos:prefLabel "scheibenrad"@de;
-  skos:prefLabel "disc wheel"@en;
-  skos:prefLabel "roue à toile pleine"@fr;
-  skos:prefLabel "schijfwiel"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a209a2-6b80-11e5-aae6-87f34dd417e1 rdf:type skos:Concept;
-  skos:editorialNote: """Unclear concept.  Needs checking."""@en;
-  skos:altLabel "rähm"@de;
-  skos:altLabel "basting"@fr;
-  skos:prefLabel "bohle"@de;
-  skos:prefLabel "board"@en;
-  skos:prefLabel "madrier"@fr;
-  skos:prefLabel "badding"@nl;
+  skos:prefLabel "arrière-corps (de la maison)"@fr;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2156e-6b80-11e5-aaf8-d72532287456 rdf:type skos:Concept;
-  skos:editorialNote: """Superfluous terms? Needs scope note."""@en;
+  skos:scopeNote """In shipbuilding and ship archaeology this refers to the more or less horizontal bottom of a ship, excluding the part at the rear and front where it bends upwards.  The bottom of a ship consists of bottom planks and other internal timbers"""@en;
+  skos:scopeNote """In de scheepsbouw en scheepsarcheologie gebruikelijke benaming voor de bodem, de min of meer horizontale onderkant van een schip, tot waar deze naar boven buigt bij de kim. Het vlak is feitelijk het samenstelsel van vlakplanken, inhouten (met name leggers) en eventuele wegering."""@nl;
   skos:broadMatch aat:300212614;
   skos:altLabel "boden"@de;
   skos:altLabel "fond"@fr;
@@ -3263,74 +3316,31 @@ dccd:a7a2156e-6b80-11e5-aaf8-d72532287456 rdf:type skos:Concept;
   skos:prefLabel "bottom (floor)"@en;
   skos:prefLabel "carène"@fr;
   skos:inScheme dccd:objectElementType.
+
+##############################################################
+# Following entries are missing any sort of AAT match
+##############################################################
 dccd:a7a242d2-6b80-11e5-ab34-bf914e9572a7 rdf:type skos:Concept;
-  skos:editorialNote: """Currently linked to 'soft furnishing'.  Either an error in translation or should be removed from DCCD."""@en;
-  skos:exactMatch aat:300236072;
+  skos:scopeNote """A bolster or pillow serves to reinforce a corner connection"""@en;
+  skos:scopeNote """Een sleutel of sleutelstuk dient ter versteviging van een hoekverbinding. De versteviging wordt meestal toegepast bij een verstek."""@nl;
   skos:prefLabel "sattelholz"@de;
   skos:prefLabel "bolster"@en;
   skos:prefLabel "chapeau"@fr;
   skos:prefLabel "sleutelstuk"@nl;
+  skos:altLabel "pillow"@en;
   skos:inScheme dccd:objectElementType.
-dccd:a7a26d3e-6b80-11e5-ab71-e7724b8494c6 rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope note"""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "mastblock"@de;
-  skos:prefLabel "mast step"@en;
-  skos:prefLabel "carlingue de mât"@fr;
-  skos:prefLabel "mastblok"@nl;
+dccd:a7a209a2-6b80-11e5-aae6-87f34dd417e1 rdf:type skos:Concept;
+  skos:scopeNote """Beam of coniferous wood having a cross-section of 6.5 x 16.5cm, sometimes 15, 14, or 13cm high."""@en;
+  skos:scopeNote """Balk van naaldhout met een doorsnede van 6,5 x 16,5 cm, soms 15, 14 of 13 cm hoog."""@nl;
+  skos:prefLabel "basting"@fr;
+  skos:prefLabel "bohle"@de;
+  skos:prefLabel "badding"@nl;
+  skos:prefLabel "batten"@en;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2641a-6b80-11e5-ab63-036147e2b404 rdf:type skos:Concept;
-  skos:editorialNote: """Esther can't find this in the thessauri but it's used in DCCD so keep for now"""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "krummer"@de;
-  skos:prefLabel "crock"@en;
-  skos:prefLabel "bois courbe"@fr;
-  skos:prefLabel "krommer"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a26c94-6b80-11e5-ab70-e341ea1c9c3b rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope note"""@en;
-  skos:broadMatch aat:300212614;
-  skos:altLabel "banc d’étambrai, banc de mât"@fr;
-  skos:altLabel "banc de mât"@fr;
-  skos:prefLabel "mastducht"@de;
-  skos:prefLabel "mast thwart"@en;
-  skos:prefLabel "banc d’étambrai"@fr;
-  skos:prefLabel "mastbank"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a27df6-6b80-11e5-ab87-cb7ac5c04904 rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope note"""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "auflänger"@de;
-  skos:prefLabel "futtock"@en;
-  skos:prefLabel "allonge"@fr;
-  skos:prefLabel "oplanger"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2795a-6b80-11e5-ab80-eba838a4233a rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope Note"""@en;
-  skos:broadMatch aat:300001834;
-  skos:altLabel "langschoor"@nl;
-  skos:prefLabel "strebe"@de;
-  skos:prefLabel "(long) brace"@en;
-  skos:prefLabel "décharge"@fr;
-  skos:prefLabel "schoor"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a28c42-6b80-11e5-ab9d-8b53286b9c54 rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope note and aat link"""@en;
-  skos:prefLabel "refugium"@de;
-  skos:prefLabel "refugium"@en;
-  skos:prefLabel "refugium"@fr;
-  skos:prefLabel "refugehuis"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2d774-6b80-11e5-ac02-573ced692617 rdf:type skos:Concept;
-  skos:scopeNote """Use for wells sunk to extract water from a zone of saturation """@en;
-  skos:editorialNote: """Bohrloch@de needs confirming."""@en;
-  skos:exactMatch aat:300152327;
-  skos:altLabel "water well"@en;
-  skos:prefLabel "well"@en;
-  skos:prefLabel "waterput"@nl;
-  skos:prefLabel "puits à eau"@fr;
-  skos:prefLabel "Brunnen"@de;
-  skos:inScheme dccd:objectElementType.
+
+##############################################################
+# Following entries need further checking by content specialists
+##############################################################
 dccd:a7a2e58e-6b80-11e5-ac16-e7b5b004826d rdf:type skos:Concept;
   skos:editorialNote: """French terms need checking. scopeNote also needed."""@en;
   skos:broadMatch aat:300045611;
@@ -3377,14 +3387,6 @@ dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
   skos:prefLabel "ridge turret"@en;
   skos:prefLabel "dakruiter"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2eb74-6b80-11e5-ac1f-c775f5e8323d rdf:type skos:Concept;
-  skos:editorialNote: """Category = building : roof.  DE:auflangder also used in a separate ship concept.  Needs a scope note."""@en;
-  skos:broadMatch aat:300002424;
-  skos:prefLabel "auflanger"@de;
-  skos:prefLabel "aisle rafter"@en;
-  skos:prefLabel "chevron de bas-côté"@fr;
-  skos:prefLabel "oplanger"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a28472-6b80-11e5-ab91-17072903c8e8 rdf:type skos:Concept;
   skos:scopeNote """Flat, thin, usually small objects, made of metal, clay, ivory, glass, or basketry, sometimes set into a surface for decoration or to bear an inscription."""@en;
   skos:editorialNote: """This definition seems unlikely to be correct.  Plaat is used in DCCD but surely for another meaning?"""@en;
@@ -3396,33 +3398,6 @@ dccd:a7a28472-6b80-11e5-ab91-17072903c8e8 rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 
 ##############################################################
-Concepts with no scope notes 
+# Concepts with no scope notes 
 ##############################################################
-dccd:a7a2a9ac-6b80-11e5-abc6-873528dfe3ec rdf:type skos:Concept;
-  skos:editorialNote: """Needs scope note"""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "bugholz"@de;
-  skos:prefLabel "prow block"@en;
-  skos:prefLabel "épaulure"@fr;
-  skos:prefLabel "stevenplaat"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2a1a0-6b80-11e5-abba-132b7af2a434 rdf:type skos:Concept;
-  skos:editorialNote: """Needs scope note.  Listed as 'ship term' in DCCD but perhaps it should be more generic?"""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "cadre"@fr;
-  skos:prefLabel "frame"@en;
-  skos:prefLabel "rahmen"@de;
-  skos:prefLabel "spant"@nl;
-  skos:altLabel "couple"@fr;
-  skos:altLabel "spant"@de;
-  skos:altLabel "kader"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a26de8-6b80-11e5-ab72-1fef4843fbf5 rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope note."""@en;
-  skos:broadMatch aat:300212614;
-  skos:altLabel "foundation hole"@en;
-  skos:prefLabel "mastspur"@de;
-  skos:prefLabel "mast step"@en;
-  skos:prefLabel "emplanture de mât"@fr;
-  skos:prefLabel "mastspoor"@nl;
-  skos:inScheme dccd:objectElementType.
+# NONE FOUND! 
