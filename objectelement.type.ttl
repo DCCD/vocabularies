@@ -1,10 +1,10 @@
 ##############################################################
-# This file was generated on Mon, 14 Dec 2015 13:58:52 -0700
-# Number of checked and rejected concepts     : 122
-# Number of checked and accepted concepts     : 358
-# Number of concepts that need checking       : 6
-# Number of concepts with AAT match assigned  : 356
-# Number of concepts with only broad AAT match: 96
+# This file was generated on Tue, 15 Dec 2015 10:47:05 -0700
+# Number of checked and rejected concepts     : 123
+# Number of checked and accepted concepts     : 362
+# Number of concepts that need checking       : 1
+# Number of concepts with AAT match assigned  : 362
+# Number of concepts with only broad AAT match: 102
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -1119,6 +1119,11 @@ dccd:a7a22aea-6b80-11e5-ab15-c365bef70e8a rdf:type skos:Concept;
   skos:prefLabel "bracket"@en;
   skos:prefLabel "console"@fr;
   skos:prefLabel "console"@nl;
+  skos:prefLabel "bolster"@en;
+  skos:altLabel "chapeau"@fr;
+  skos:altLabel "sleutelstuk"@nl;
+  skos:altLabel "pillow"@en;
+  skos:altLabel "sattelholz"@de;
   skos:inScheme dccd:objectElementType.
 dccd:a7a237f6-6b80-11e5-ab29-6308fe52a0ff rdf:type skos:Concept;
   skos:scopeNote """Use for passages affording entrance to the rooms of a building"""@en;
@@ -2430,6 +2435,15 @@ dccd:a7a2e1ba-6b80-11e5-ac10-6f527066854b rdf:type skos:Concept;
   skos:prefLabel "panne faitière"@fr;
   skos:altLabel "apex purlin"@en;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2e58e-6b80-11e5-ac16-e7b5b004826d rdf:type skos:Concept;
+  skos:scopeNote """Square box that has no lid i.e. is open on the upper side.  The planks from which the sides and bottom are made, are tightly fit together.  Function: intended to hold content."""@en;
+  skos:broadMatch aat:300045611;
+  skos:prefLabel "caisse"@fr;
+  skos:altLabel "bac"@fr;
+  skos:prefLabel "behälter"@de;
+  skos:prefLabel "bak"@nl;
+  skos:prefLabel "container"@en;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2cfae-6b80-11e5-abf6-fb6ac9d81235 rdf:type skos:Concept;
   skos:scopeNote """The strake immediately adjacent to the keel. There are two, one on each side of the keel."""@en;
   skos:broadMatch aat:300212614;
@@ -2829,6 +2843,14 @@ dccd:69e49f8e-6c58-11e5-9a27-db85dd163663 rdf:type skos:Concept;
   skos:prefLabel "pfahl"@de;
   skos:prefLabel "paal"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a28ed6-6b80-11e5-aba1-4b3605e4f5b9 rdf:type skos:Concept;
+  skos:scopeNote """Indoor living space on a ship"""@en;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "roof"@de;
+  skos:prefLabel "deck house"@en;
+  skos:prefLabel "rouf"@fr;
+  skos:prefLabel "roef"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2e304-6b80-11e5-ac12-f73ce7356e81 rdf:type skos:Concept;
   skos:scopeNote """The stem is the most forward part of a boat or ship's bow [1] and is an extension of the keel itself. The stem is the curved edge stretching from the keel below, up to the gunwale of the boat. The stem is more often found on wooden boats or ships, but not exclusively."""@en;
   skos:broadMatch aat:300263190;
@@ -3180,6 +3202,20 @@ dccd:a7a26de8-6b80-11e5-ab72-1fef4843fbf5 rdf:type skos:Concept;
   skos:prefLabel "emplanture de mât"@fr;
   skos:prefLabel "mastspoor"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a1e314-6b80-11e5-aaaf-bff7d75a954f rdf:type skos:Concept;
+  skos:scopeNote """Curved timbers scarfed together to form the lower part of the compound rib of a ship"""@en;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "genou de couple"@fr;
+  skos:prefLabel "futtock"@en;
+  skos:prefLabel "zitter"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a28472-6b80-11e5-ab91-17072903c8e8 rdf:type skos:Concept;
+  skos:scopeNote """Short and wide, thick plank"""@en;
+  skos:broadMatch aat:300012825;
+  skos:prefLabel "platte"@de;
+  skos:prefLabel "plate"@fr;
+  skos:prefLabel "plaat"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2a24a-6b80-11e5-abbb-c37499110f0f rdf:type skos:Concept;
   skos:scopeNote """Material objects contrived for amusement rather than for practical use by children or pets, or intended as collectibles by adults. Toys are generally miniature versions of real beings or objects that lend themselves to imaginative or imitative play. Toys may also be items for use in games. Among the earliest toys were dolls and balls."""@en;
   skos:exactMatch aat:300211037;
@@ -3316,22 +3352,21 @@ dccd:a7a2156e-6b80-11e5-aaf8-d72532287456 rdf:type skos:Concept;
   skos:prefLabel "bottom (floor)"@en;
   skos:prefLabel "carène"@fr;
   skos:inScheme dccd:objectElementType.
-
-##############################################################
-# Following entries are missing any sort of AAT match
-##############################################################
-dccd:a7a242d2-6b80-11e5-ab34-bf914e9572a7 rdf:type skos:Concept;
-  skos:scopeNote """A bolster or pillow serves to reinforce a corner connection"""@en;
-  skos:scopeNote """Een sleutel of sleutelstuk dient ter versteviging van een hoekverbinding. De versteviging wordt meestal toegepast bij een verstek."""@nl;
-  skos:prefLabel "sattelholz"@de;
-  skos:prefLabel "bolster"@en;
-  skos:prefLabel "chapeau"@fr;
-  skos:prefLabel "sleutelstuk"@nl;
-  skos:altLabel "pillow"@en;
+dccd:a7a2d38c-6b80-11e5-abfc-5b71ee2d176a rdf:type skos:Concept;
+  skos:scopeNote """A plank that is part of the ceiling on a ship (i.e. of the planking on the inside of the hull).  It runs parallel to the ship's length-axis"""@en;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "wegerplanke"@de;
+  skos:altLabel "weger"@de;
+  skos:prefLabel "ceiling plank"@en;
+  skos:altLabel "weger"@nl;
+  skos:prefLabel "vaigre"@fr;
+  skos:prefLabel "wegeringplank"@nl;
+  skos:altLabel "bodenwegerung"@de;
   skos:inScheme dccd:objectElementType.
 dccd:a7a209a2-6b80-11e5-aae6-87f34dd417e1 rdf:type skos:Concept;
   skos:scopeNote """Beam of coniferous wood having a cross-section of 6.5 x 16.5cm, sometimes 15, 14, or 13cm high."""@en;
   skos:scopeNote """Balk van naaldhout met een doorsnede van 6,5 x 16,5 cm, soms 15, 14 of 13 cm hoog."""@nl;
+  skos:broadMatch aat:300001497;
   skos:prefLabel "basting"@fr;
   skos:prefLabel "bohle"@de;
   skos:prefLabel "badding"@nl;
@@ -3339,62 +3374,20 @@ dccd:a7a209a2-6b80-11e5-aae6-87f34dd417e1 rdf:type skos:Concept;
   skos:inScheme dccd:objectElementType.
 
 ##############################################################
+# Following entries are missing any sort of AAT match
+##############################################################
+# NONE FOUND! 
+
+##############################################################
 # Following entries need further checking by content specialists
 ##############################################################
-dccd:a7a2e58e-6b80-11e5-ac16-e7b5b004826d rdf:type skos:Concept;
-  skos:editorialNote: """French terms need checking. scopeNote also needed."""@en;
-  skos:broadMatch aat:300045611;
-  skos:altLabel "coffre"@fr;
-  skos:altLabel "bac"@fr;
-  skos:prefLabel "behälter"@de;
-  skos:prefLabel "bak"@nl;
-  skos:prefLabel "container"@en;
-  skos:prefLabel "récipient"@fr;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2d38c-6b80-11e5-abfc-5b71ee2d176a rdf:type skos:Concept;
-  skos:editorialNote: """Needs scope note"""@en;
-  skos:broadMatch aat:300212614;
-  skos:altLabel "wegerplanke"@de;
-  skos:prefLabel "ceiling plank"@en;
-  skos:prefLabel "weger"@de;
-  skos:prefLabel "vaigre"@fr;
-  skos:prefLabel "weger"@nl;
-  skos:altLabel "wegeringplank"@nl;
-  skos:altLabel "bodenwegerung"@de;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a28ed6-6b80-11e5-aba1-4b3605e4f5b9 rdf:type skos:Concept;
-  skos:editorialNote: """Needs a scope note"""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "roof"@de;
-  skos:prefLabel "deck house"@en;
-  skos:prefLabel "rouf"@fr;
-  skos:prefLabel "roef"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a1e314-6b80-11e5-aaaf-bff7d75a954f rdf:type skos:Concept;
-  skos:scopeNote """Curved timbers scarfed together to form the lower part of the compound rib of a ship"""@en;
-  skos:editorialNote: """de, fr and nl terms need confirming.  Zitter used in DCCD."""@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "genou de couple"@fr;
-  skos:prefLabel "first futtock"@en;
-  skos:prefLabel "zitter"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
   skos:scopeNote """A ridge turret is a turret or small tower constructed over the ridge or apex between two or more sloping roofs of a building. It is usually built either as an architectural ornament for purely decorative purposes or else for the practical housing of a clock, a bell or an observation platform. Its function is thus different from that of a roof lantern, despite a frequent similarity of external appearance."""@en;
-  skos:editorialNote: """fr term needed"""@en;
   skos:broadMatch aat:300003632;
   skos:altLabel "roof turret"@en;
   skos:prefLabel "dachreiter"@de;
   skos:prefLabel "ridge turret"@en;
   skos:prefLabel "dakruiter"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a28472-6b80-11e5-ab91-17072903c8e8 rdf:type skos:Concept;
-  skos:scopeNote """Flat, thin, usually small objects, made of metal, clay, ivory, glass, or basketry, sometimes set into a surface for decoration or to bear an inscription."""@en;
-  skos:editorialNote: """This definition seems unlikely to be correct.  Plaat is used in DCCD but surely for another meaning?"""@en;
-  skos:exactMatch aat:300010262;
-  skos:prefLabel "platte"@de;
-  skos:prefLabel "plaque"@en;
-  skos:prefLabel "plate"@fr;
-  skos:prefLabel "plaat"@nl;
   skos:inScheme dccd:objectElementType.
 
 ##############################################################
