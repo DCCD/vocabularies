@@ -13,12 +13,16 @@ dccd:fc22100f-33fa-4c7c-83a0-e701f7eb983c rdf:type skos:Concept;
   skos:prefLabel "anthropology"@en;
   skos:prefLabel "antropologie"@nl;
   skos:prefLabel "l'anthropologie"@fr; 
+  skos:scopeNote "anthropological project";
+  skos:exactMatch aat:300054315;
+  skos:broader dccd:2179fd16-3230-4493-91e3-cc26b12f8a3f;
   skos:inScheme dccd:projectType.
 dccd:fc22100f-33fa-4c7c-83a0-e701f7eb983c skos:exactMatch aat:300054315.
 dccd:86ca4a80-42bc-4aad-a228-34af2cd65325 rdf:type skos:Concept;
   skos:prefLabel "climatology"@en;
   skos:prefLabel "klimatologie"@nl;
   skos:prefLabel " climatologie"@fr; 
+  skos:exactMatch aat:300379447;
   skos:inScheme dccd:projectType.
 dccd:86ca4a80-42bc-4aad-a228-34af2cd65325 skos:exactMatch aat:300379447.
 dccd:eae29d68-5880-4817-b035-a061570113fd rdf:type skos:Concept;
@@ -105,7 +109,7 @@ dccd:2179fd16-3230-4493-91e3-cc26b12f8a3f rdf:type skos:Concept;
   skos:prefLabel "other"@en;
   skos:prefLabel "anders"@nl;
   skos:prefLabel "autre"@fr; 
-  skos:scopeNote "non of the others"@en;
+  skos:scopeNote "none of the others"@en;
   skos:inScheme dccd:projectType.
 
 
