@@ -1,10 +1,10 @@
 ##############################################################
-# This file was generated on Tue, 15 Dec 2015 12:22:23 -0700
+# This file was generated on Tue, 06 Sep 2016 15:33:48 -0600
 # Number of checked and rejected concepts     : 123
-# Number of checked and accepted concepts     : 362
-# Number of concepts that need checking       : 1
-# Number of concepts with AAT match assigned  : 362
-# Number of concepts with only broad AAT match: 102
+# Number of checked and accepted concepts     : 363
+# Number of concepts that need checking       : 0
+# Number of concepts with AAT match assigned  : 363
+# Number of concepts with only broad AAT match: 103
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -13,7 +13,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix aat: <http://vocab.getty.edu/aat/> .
-@prefix dccd: <http://dendro.dans.knaw.nl/dccd-terms/> .
+@prefix dccd: <http://tridas.org/vocabularies/objectelementype/> .
 dccd:objectElementType rdf:type skos:ConceptScheme;
   dct:title "DCCD TRiDaS Object/Element Type Dictionary";
   dct:creator dccd:DCCD.
@@ -369,14 +369,6 @@ dccd:a7a1be98-6b80-11e5-aa7c-5f4916f3501e rdf:type skos:Concept;
   skos:altLabel "gatter"@de;
   skos:prefLabel "fischkasten"@de;
   skos:inScheme dccd:objectElementType.
-dccd:a7a1c6ea-6b80-11e5-aa88-97f224bfdc83 rdf:type skos:Concept;
-  skos:scopeNote """shipsterm """@en;
-  skos:broadMatch aat:300212614;
-  skos:prefLabel "kombüse"@de;
-  skos:prefLabel "cook's galley"@en;
-  skos:prefLabel "cuisine de bord"@fr;
-  skos:prefLabel "kombuis"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a1c8de-6b80-11e5-aa8b-67e97dd5e510 rdf:type skos:Concept;
   skos:scopeNote """Boards forming the end of anything, especially a bed."""@en;
   skos:exactMatch aat:300040444;
@@ -402,6 +394,14 @@ dccd:a7a1d572-6b80-11e5-aa9e-475b95e2c6da rdf:type skos:Concept;
   skos:prefLabel "barge"@fr;
   skos:prefLabel "aak"@nl;
   skos:broader dccd:a7a1ba74-6b80-11e5-aa7a-7b1dc4c873b5;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1c6ea-6b80-11e5-aa88-97f224bfdc83 rdf:type skos:Concept;
+  skos:scopeNote """Area on a ship where food is prepared"""@en;
+  skos:broadMatch aat:300212614;
+  skos:prefLabel "kombüse"@de;
+  skos:prefLabel "cook's galley"@en;
+  skos:prefLabel "cuisine de bord"@fr;
+  skos:prefLabel "kombuis"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1da90-6b80-11e5-aaa2-abbbc790ddd7 rdf:type skos:Concept;
   skos:scopeNote """Use for buildings equipped with machinery for grinding grain into flour """@en;
@@ -923,6 +923,15 @@ dccd:a7a22c34-6b80-11e5-ab17-87ee6d5c0187 rdf:type skos:Concept;
   skos:prefLabel "dam"@nl;
   skos:prefLabel "barrage"@fr;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2c5a4-6b80-11e5-abeb-5f2542d3673a rdf:type skos:Concept;
+  skos:scopeNote """Rooms or closets in which food, groceries, and other provisions, or silverware, dishes, and other items are kept."""@en;
+  skos:exactMatch aat:300004499;
+  skos:prefLabel "provisiekamer"@nl;
+  skos:altLabel "voorraadkamer"@nl;
+  skos:prefLabel "pantry"@en;
+  skos:prefLabel "garde-manger"@fr;
+  skos:prefLabel "speisekammer"@de;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a22e28-6b80-11e5-ab1a-bf248ca1c87c rdf:type skos:Concept;
   skos:scopeNote """Barriers which swing, slide, tilt, or fold to close a doorway, usually of solid and finished construction and usually leading to or separating interior spaces. Use also for similar features that close a container or a piece of case furniture. For barriers of less solid or finished construction, and usually separating two exterior spaces, use 'gates.'"""@en;
   skos:exactMatch aat:300002803;
@@ -1192,6 +1201,14 @@ dccd:a7a24e76-6b80-11e5-ab46-bb78bbf94d92 rdf:type skos:Concept;
   skos:prefLabel "joug"@fr;
   skos:prefLabel "juk"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a2c644-6b80-11e5-abec-33b88023131e rdf:type skos:Concept;
+  skos:scopeNote """A pair of small oars used by a single rower"""@en;
+  skos:broadMatch aat:300213077;
+  skos:prefLabel "scull"@en;
+  skos:prefLabel "skull"@de;
+  skos:prefLabel "godille"@fr;
+  skos:prefLabel "wrikriem"@nl;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a24fc0-6b80-11e5-ab48-3b0d498a7626 rdf:type skos:Concept;
   skos:scopeNote """Case furniture consisting of a set of shelves, small drawers, or pigeonholes, fronted by one or more doors, and intended for the storage and sometimes the display of small objects. Also, similar built-in or fitted cases often designed for specific purposes, as in a kitchen or bathroom."""@en;
   skos:exactMatch aat:300038888;
@@ -1435,6 +1452,16 @@ dccd:a7a25984-6b80-11e5-ab53-272c5d4e5f62 rdf:type skos:Concept;
   skos:prefLabel "bilge stringer"@en;
   skos:prefLabel "bordage de bouchain"@fr;
   skos:prefLabel "kimweger"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a1db3a-6b80-11e5-aaa3-7f7a21d2bfdf rdf:type skos:Concept;
+  skos:scopeNote """Buildings equipped with machinery for grinding grain into flour."""@en;
+  skos:exactMatch aat:300006286;
+  skos:prefLabel "mühle"@de;
+  skos:altLabel "mill"@en;
+  skos:altLabel "molen"@nl;
+  skos:altLabel "moulin"@fr;
+  skos:prefLabel "meelfabriek"@nl;
+  skos:prefLabel "moulin à farine"@fr;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2656e-6b80-11e5-ab65-7f24dce16cb6 rdf:type skos:Concept;
   skos:scopeNote """Cavities in the earth, usually not below ground water level, that are shallow in proportion to their width and generally created for materials extraction or burial."""@en;
@@ -1693,6 +1720,14 @@ dccd:a7a28710-6b80-11e5-ab95-57acef8170ff rdf:type skos:Concept;
   skos:prefLabel "gatehouse"@en;
   skos:prefLabel "guérite"@fr;
   skos:prefLabel "poortgebouw"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2461a-6b80-11e5-ab39-6349af355cf8 rdf:type skos:Concept;
+  skos:scopeNote """Structural members whose primary function is to carry transverse loads."""@en;
+  skos:broadMatch aat:300001497;
+  skos:prefLabel "tragbalken"@de;
+  skos:prefLabel "supporting beam"@en;
+  skos:prefLabel "poutre"@fr;
+  skos:prefLabel "draagbalk"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a287ba-6b80-11e5-ab96-d3e8d3934350 rdf:type skos:Concept;
   skos:scopeNote """Use for miniature scale houses or sets of rooms designed to hold or display miniature furniture and furnishings and usually to be used in conjunction with like-sized dolls; known since the 16th century """@en;
@@ -2195,23 +2230,6 @@ dccd:a7a2c4fa-6b80-11e5-abea-0b5625eff428 rdf:type skos:Concept;
   skos:prefLabel "hall d'entrée"@fr;
   skos:prefLabel "entreehal"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a2c5a4-6b80-11e5-abeb-5f2542d3673a rdf:type skos:Concept;
-  skos:scopeNote """Rooms or closets in which food, groceries, and other provisions, or silverware, dishes, and other items are kept."""@en;
-  skos:exactMatch aat:300004499;
-  skos:prefLabel "provisiekamer"@nl;
-  skos:altLabel "voorraadkamer"@nl;
-  skos:prefLabel "pantry"@en;
-  skos:prefLabel "garde-manger"@fr;
-  skos:prefLabel "speisekammer"@de;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2c644-6b80-11e5-abec-33b88023131e rdf:type skos:Concept;
-  skos:scopeNote """A pair of small oars used by a single rower"""@en;
-  skos:broadMatch aat:300213077;
-  skos:prefLabel "scull"@en;
-  skos:prefLabel "skull"@de;
-  skos:prefLabel "godille"@fr;
-  skos:prefLabel "wrikriem"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a2c6ee-6b80-11e5-abed-bb1ab0b1dad9 rdf:type skos:Concept;
   skos:scopeNote """General term referring to all long outdoor passages used by and generally created by humans, intended to allow people to pass between different places, usually one wide enough to admit of the passage of wheeled vehicles, horses, or travellers on foot."""@en;
   skos:exactMatch aat:300008217;
@@ -2389,6 +2407,15 @@ dccd:a7a2e1ba-6b80-11e5-ac10-6f527066854b rdf:type skos:Concept;
   skos:prefLabel "panne faitière"@fr;
   skos:altLabel "apex purlin"@en;
   skos:inScheme dccd:objectElementType.
+dccd:2883e41c-6de0-11e5-bfb5-cb19728dc1ff rdf:type skos:Concept;
+  skos:scopeNote """Long, regular channels or projections used for finishing and decorative purposes."""@en;
+  skos:exactMatch aat:300244017;
+  skos:prefLabel "moulding"@en;
+  skos:prefLabel "moulure"@fr;
+  skos:prefLabel "gesims"@de;
+  skos:prefLabel "lijstwerk"@nl;
+  skos:altLabel "molding"@en;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2e58e-6b80-11e5-ac16-e7b5b004826d rdf:type skos:Concept;
   skos:scopeNote """Square box that has no lid i.e. is open on the upper side.  The planks from which the sides and bottom are made, are tightly fit together.  Function: intended to hold content."""@en;
   skos:broadMatch aat:300045611;
@@ -2422,16 +2449,6 @@ dccd:a7a2cf04-6b80-11e5-abf5-33866e83aa74 rdf:type skos:Concept;
   skos:prefLabel "zeilbalk"@nl;
   skos:prefLabel "barrot de mât"@fr;
   skos:prefLabel "mastbalken"@de;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2df26-6b80-11e5-ac0c-6f0b8e77283e rdf:type skos:Concept;
-  skos:scopeNote """Huts or boxes to shelter a sentry at his post."""@en;
-  skos:exactMatch aat:6#http://vocab.getty.edu/aat/300048816;
-  skos:altLabel "poste de guet"@fr;
-  skos:prefLabel "poste de garde"@fr;
-  skos:prefLabel "wachtpost"@nl;
-  skos:prefLabel "wachtposten"@de;
-  skos:prefLabel "sentry box"@en;
-  skos:altLabel "guard post"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2d0f8-6b80-11e5-abf8-ff3312346775 rdf:type skos:Concept;
   skos:scopeNote """V-shaped timber at the bow or the stern of a boat."""@en;
@@ -2584,6 +2601,22 @@ dccd:a7a2f970-6b80-11e5-ac30-67d32cb0131b rdf:type skos:Concept;
   skos:exactMatch aat:300120786;
   skos:prefLabel "wharf"@en;
   skos:prefLabel "werf"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a20e48-6b80-11e5-aaed-3310364db131 rdf:type skos:Concept;
+  skos:scopeNote """Covered pits into which raw sewage is discharged, the liquid portion seeping or leaching into the surrounding porous soil, and the solids being retained in the pit to undergo partial decomposition before removal."""@en;
+  skos:exactMatch aat:300052556;
+  skos:prefLabel "senkgrube"@de;
+  skos:prefLabel "cesspit"@en;
+  skos:prefLabel "fosse d'aisances"@fr;
+  skos:prefLabel "beerput"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a22a40-6b80-11e5-ab14-3f630f3ccb52 rdf:type skos:Concept;
+  skos:scopeNote """ A large four-stringed instrument of the violin class; a bass violin tuned an octave below violas. They are structurally similar to violins but differ in having relatively deeper ribs and a shorter neck."""@en;
+  skos:exactMatch aat:300209202;
+  skos:prefLabel "cello"@de;
+  skos:prefLabel "cello"@en;
+  skos:prefLabel "violoncelle"@fr;
+  skos:prefLabel "cello"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2fa1a-6b80-11e5-ac31-a3d029d44e0c rdf:type skos:Concept;
   skos:scopeNote """Use, in post-Second World War contexts, for structures built generally parallel to the shoreline so that vessels may moor alongside to receive or discharge cargo or passengers; prior to the mid-20th century, may refer broadly to any such landing places. For similar loading and unloading places built to extend from the shoreline out over water, use 'piers (marine landings)'; if such places are artificial solid banks or shoreline extensions built parallel to the shoreline, use 'quays.'
@@ -2781,17 +2814,6 @@ dccd:a7a1f426-6b80-11e5-aac9-dfac25af0b6e rdf:type skos:Concept;
   skos:prefLabel "fish weir"@en;
   skos:prefLabel "fischwehr"@de;
   skos:altLabel "kiddle"@en;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a1db3a-6b80-11e5-aaa3-7f7a21d2bfdf rdf:type skos:Concept;
-  skos:scopeNote """Buildings equipped with machinery for grinding grain into flour."""@en;
-  skos:exactMatch aat:300006286;
-  skos:prefLabel "mühle"@de;
-  skos:altLabel "mill"@en;
-  skos:altLabel "molen"@nl;
-  skos:altLabel "moulin"@fr;
-  skos:prefLabel "flour mill"@;
-  skos:prefLabel "meelfabriek"@nl;
-  skos:prefLabel "moulin à farine"@fr;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2d242-6b80-11e5-abfa-ef7dcc407f8f rdf:type skos:Concept;
   skos:scopeNote """ Buildings or devices with sails or vanes that turn in the wind and generate power. The devices operate by means of a rotating shaft on which sails are mounted or placed at an angle so that the force of wind against them causes rotation, which in turn produced energy. Windmills were historically used chiefly in flat districts for operating a mill to grind grain or pump water; the older and most characteristic European form consists of a conical mill-house with a dome or cap supporting four sails. Modern devices tap the wind to produce electricity by using a disk of sails mounted on a framework."""@en;
@@ -3006,30 +3028,6 @@ dccd:a7a22310-6b80-11e5-ab09-233eab22434f rdf:type skos:Concept;
   skos:prefLabel "lit"@fr;
   skos:prefLabel "bed"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:a7a20e48-6b80-11e5-aaed-3310364db131 rdf:type skos:Concept;
-  skos:scopeNote """Covered pits into which raw sewage is discharged, the liquid portion seeping or leaching into the surrounding porous soil, and the solids being retained in the pit to undergo partial decomposition before removal."""@en;
-  skos:exactMatch aat:300052556;
-  skos:prefLabel "senkgrube"@de;
-  skos:prefLabel "cesspit"@en;
-  skos:prefLabel "fosse d'aisances"@fr;
-  skos:prefLabel "beerput"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a22a40-6b80-11e5-ab14-3f630f3ccb52 rdf:type skos:Concept;
-  skos:scopeNote """ A large four-stringed instrument of the violin class; a bass violin tuned an octave below violas. They are structurally similar to violins but differ in having relatively deeper ribs and a shorter neck."""@en;
-  skos:exactMatch aat:300209202;
-  skos:prefLabel "cello"@de;
-  skos:prefLabel "cello"@en;
-  skos:prefLabel "violoncelle"@fr;
-  skos:prefLabel "cello"@nl;
-  skos:inScheme dccd:objectElementType.
-dccd:a7a2461a-6b80-11e5-ab39-6349af355cf8 rdf:type skos:Concept;
-  skos:scopeNote """Structural members whose primary function is to carry transverse loads."""@en;
-  skos:broadMatch aat:300001497;
-  skos:prefLabel "tragbalken"@de;
-  skos:prefLabel "supporting beam"@en;
-  skos:prefLabel "poutre"@fr;
-  skos:prefLabel "draagbalk"@nl;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a240de-6b80-11e5-ab31-3f3010557bc2 rdf:type skos:Concept;
   skos:scopeNote """Plucked lutelike chordophones with built-up ribs, gently-waisted body, fretted neck, flat peg disc, rear or machine tuning pegs, frontal string holder combined with bridge, and large circular soundhole. Their size, form, and number of strings can vary."""@en;
   skos:exactMatch aat:300042025;
@@ -3217,15 +3215,6 @@ dccd:a7a28c42-6b80-11e5-ab9d-8b53286b9c54 rdf:type skos:Concept;
   skos:prefLabel "refugium"@fr;
   skos:prefLabel "refugehuis"@nl;
   skos:inScheme dccd:objectElementType.
-dccd:2883e41c-6de0-11e5-bfb5-cb19728dc1ff rdf:type skos:Concept;
-  skos:scopeNote """Long, regular channels or projections used for finishing and decorative purposes."""@en;
-  skos:exactMatch aat:300244017;
-  skos:prefLabel "moulding"@en;
-  skos:prefLabel "moulure"@fr;
-  skos:prefLabel "gesims"@de;
-  skos:prefLabel "lijstwerk"@nl;
-  skos:altLabel "molding"@en;
-  skos:inScheme dccd:objectElementType.
 dccd:a7a2c3b0-6b80-11e5-abe8-872f0307e16a rdf:type skos:Concept;
   skos:scopeNote """In complex castles, the spaces between the outer and inner walls """@en;
   skos:exactMatch aat:300003688;
@@ -3374,6 +3363,24 @@ dccd:a7a21956-6b80-11e5-aafe-671430d308ae rdf:type skos:Concept;
   skos:prefLabel "latrine"@fr;
   skos:prefLabel "latrine"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
+  skos:scopeNote """A ridge turret is a turret or small tower constructed over the ridge or apex between two or more sloping roofs of a building. It is usually built either as an architectural ornament for purely decorative purposes or else for the practical housing of a clock, a bell or an observation platform. Its function is thus different from that of a roof lantern, despite a frequent similarity of external appearance."""@en;
+  skos:broadMatch aat:300003632;
+  skos:altLabel "roof turret"@en;
+  skos:prefLabel "dachreiter"@de;
+  skos:prefLabel "ridge turret"@en;
+  skos:prefLabel "dakruiter"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:a7a2df26-6b80-11e5-ac0c-6f0b8e77283e rdf:type skos:Concept;
+  skos:scopeNote """Huts or boxes to shelter a sentry at his post."""@en;
+  skos:exactMatch aat:300048816;
+  skos:altLabel "poste de guet"@fr;
+  skos:prefLabel "poste de garde"@fr;
+  skos:prefLabel "wachtpost"@nl;
+  skos:prefLabel "wachtposten"@de;
+  skos:prefLabel "sentry box"@en;
+  skos:altLabel "guard post"@en;
+  skos:inScheme dccd:objectElementType.
 
 ##############################################################
 # Following entries are missing any sort of AAT match
@@ -3383,14 +3390,7 @@ dccd:a7a21956-6b80-11e5-aafe-671430d308ae rdf:type skos:Concept;
 ##############################################################
 # Following entries need further checking by content specialists
 ##############################################################
-dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
-  skos:scopeNote """A ridge turret is a turret or small tower constructed over the ridge or apex between two or more sloping roofs of a building. It is usually built either as an architectural ornament for purely decorative purposes or else for the practical housing of a clock, a bell or an observation platform. Its function is thus different from that of a roof lantern, despite a frequent similarity of external appearance."""@en;
-  skos:broadMatch aat:300003632;
-  skos:altLabel "roof turret"@en;
-  skos:prefLabel "dachreiter"@de;
-  skos:prefLabel "ridge turret"@en;
-  skos:prefLabel "dakruiter"@nl;
-  skos:inScheme dccd:objectElementType.
+# NONE FOUND! 
 
 ##############################################################
 # Concepts with no scope notes 
