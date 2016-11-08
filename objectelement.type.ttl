@@ -1,9 +1,9 @@
 ##############################################################
-# This file was generated on Tue, 06 Sep 2016 15:33:48 -0600
-# Number of checked and rejected concepts     : 123
-# Number of checked and accepted concepts     : 363
-# Number of concepts that need checking       : 0
-# Number of concepts with AAT match assigned  : 363
+# This file was generated on Tue, 08 Nov 2016 15:50:26 -0700
+# Number of checked and rejected concepts     : 122
+# Number of checked and accepted concepts     : 366
+# Number of concepts that need checking       : 7
+# Number of concepts with AAT match assigned  : 365
 # Number of concepts with only broad AAT match: 103
 ##############################################################
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -601,6 +601,9 @@ dccd:a7a1dbe4-6b80-11e5-aaa4-7381f7bc04b0 rdf:type skos:Concept;
   skos:prefLabel "makelaar"@nl;
   skos:prefLabel "spitzständer"@de;
   skos:prefLabel "poinçon (qui ne porte pas la faitière"@fr;
+  skos:altLabel "koningsstijl"@nl;
+  skos:altLabel "king post"@en;
+  skos:altLabel "kingpost"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a1dde2-6b80-11e5-aaa7-f386d8c44f3d rdf:type skos:Concept;
   skos:scopeNote """Hull planking"""@en;
@@ -855,6 +858,8 @@ dccd:a7a21cda-6b80-11e5-ab00-0f0715311ad9 rdf:type skos:Concept;
   skos:prefLabel "lintel"@en;
   skos:prefLabel "linteau"@fr;
   skos:prefLabel "latei"@nl;
+  skos:altLabel "bovendorpel"@nl;
+  skos:altLabel "door head"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a21dc0-6b80-11e5-ab01-e784143b85e4 rdf:type skos:Concept;
   skos:scopeNote """Structures spanning and providing passage over waterways, topographic depressions, transportation routes, or similar circulation barriers """@en;
@@ -906,6 +911,9 @@ dccd:a7a226f8-6b80-11e5-ab0f-338af312608a rdf:type skos:Concept;
   skos:prefLabel "(tree-)trunk"@en;
   skos:prefLabel "tronc"@fr;
   skos:prefLabel "boomstam"@nl;
+  skos:altLabel "trunk"@en;
+  skos:altLabel "bomen"@nl;
+  skos:altLabel "baum"@de;
   skos:inScheme dccd:objectElementType.
 dccd:a7a22996-6b80-11e5-ab13-bfb96fa50660 rdf:type skos:Concept;
   skos:scopeNote """Small, ancient Roman fortified towns or outposts """@en;
@@ -1159,6 +1167,7 @@ dccd:a7a2437c-6b80-11e5-ab35-1f9ef4aefe4f rdf:type skos:Concept;
   skos:prefLabel "manor house"@en;
   skos:prefLabel "buitenplaats"@nl;
   skos:altLabel "manor"@en;
+  skos:altLabel "herrensitz"@de;
   skos:inScheme dccd:objectElementType.
 dccd:a7a24570-6b80-11e5-ab38-038b649415d6 rdf:type skos:Concept;
   skos:scopeNote """Beam running transversely across a building tying together two or more parts of a structure"""@en;
@@ -1821,6 +1830,8 @@ dccd:a7a285bc-6b80-11e5-ab93-97ea9bfe9e3c rdf:type skos:Concept;
   skos:prefLabel "plank"@en;
   skos:prefLabel "planche"@fr;
   skos:prefLabel "plank"@nl;
+  skos:altLabel "boordgang"@nl;
+  skos:altLabel "boord"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a28f76-6b80-11e5-aba2-4bd79c1a7610 rdf:type skos:Concept;
   skos:scopeNote """Use for long slender shafts, usually wood, shaped to a round handle or grip at one end and flat-tipped blade at the other; for rowing. For similar but shorter devices with round-tipped blades for propelling small boats, use 'paddles (watercraft equipment).'
@@ -2560,6 +2571,8 @@ dccd:a7a2f60a-6b80-11e5-ac2b-afd750abcfb1 rdf:type skos:Concept;
   skos:prefLabel "balken"@de;
   skos:prefLabel "poutre"@fr;
   skos:altLabel "juk"@nl;
+  skos:altLabel "ligger"@nl;
+  skos:altLabel "floor timber"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2f6b4-6b80-11e5-ac2c-fb98219bacee rdf:type skos:Concept;
   skos:scopeNote """Small hills, small elevations in the earth's surface, or small mounds or heaps of earth or stones."""@en;
@@ -2663,6 +2676,7 @@ dccd:a7a2fb8c-6b80-11e5-ac33-b7bbe7d0e283 rdf:type skos:Concept;
   skos:prefLabel "vloerbalk"@nl;
   skos:prefLabel "deckenbalken"@de;
   skos:altLabel "ceiling joist"@en;
+  skos:altLabel "zolderbalk"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a2fc40-6b80-11e5-ac34-b388a286cdde rdf:type skos:Concept;
   skos:scopeNote """Refers to deep, wide defensive ditches surrounding towns, castles, or houses and usually filled with water."""@en;
@@ -2830,6 +2844,7 @@ dccd:69e49f8e-6c58-11e5-9a27-db85dd163663 rdf:type skos:Concept;
   skos:prefLabel "pile"@en;
   skos:prefLabel "pfahl"@de;
   skos:prefLabel "paal"@nl;
+  skos:altLabel "piling"@en;
   skos:inScheme dccd:objectElementType.
 dccd:a7a28ed6-6b80-11e5-aba1-4b3605e4f5b9 rdf:type skos:Concept;
   skos:scopeNote """Indoor living space on a ship"""@en;
@@ -3266,6 +3281,7 @@ dccd:9d4fa7fa-a291-11e5-a079-cba56fb0068e rdf:type skos:Concept;
   skos:prefLabel "lijst"@nl;
   skos:prefLabel "cadre"@fr;
   skos:prefLabel "rahmen"@de;
+  skos:altLabel "skelet"@nl;
   skos:inScheme dccd:objectElementType.
 dccd:a7a23756-6b80-11e5-ab28-47b8e3d19c0e rdf:type skos:Concept;
   skos:scopeNote """An open space in which are placed one or more gallows.  In the course of time these fields disappeared, but well into the 18th century they still were to be found in many places, both in the Netherlands and abroad."""@en;
@@ -3371,6 +3387,15 @@ dccd:a7a1b3bc-6b80-11e5-aa70-6b98467e51b7 rdf:type skos:Concept;
   skos:prefLabel "ridge turret"@en;
   skos:prefLabel "dakruiter"@nl;
   skos:inScheme dccd:objectElementType.
+dccd:995603cc-a5df-11e6-8712-f36f92aa121f rdf:type skos:Concept;
+  skos:scopeNote """Use to designate roofed spaces, open along two or more sides and adjunct to a building, commonly serving either to shelter an entrance or used as living space."""@en;
+  skos:exactMatch aat:300004132;
+  skos:prefLabel "porch"@en;
+  skos:prefLabel "voorhuis"@nl;
+  skos:prefLabel "porche"@fr;
+  skos:prefLabel "veranda"@de;
+  skos:altLabel "veranda"@en;
+  skos:inScheme dccd:objectElementType.
 dccd:a7a2df26-6b80-11e5-ac0c-6f0b8e77283e rdf:type skos:Concept;
   skos:scopeNote """Huts or boxes to shelter a sentry at his post."""@en;
   skos:exactMatch aat:300048816;
@@ -3381,16 +3406,83 @@ dccd:a7a2df26-6b80-11e5-ac0c-6f0b8e77283e rdf:type skos:Concept;
   skos:prefLabel "sentry box"@en;
   skos:altLabel "guard post"@en;
   skos:inScheme dccd:objectElementType.
+dccd:a7a27c98-6b80-11e5-ab85-ab5d96351172 rdf:type skos:Concept;
+  skos:scopeNote """Roofless enclosures, barriers, defenses, or bulwarks, such as a railings, walls, hedges, or palisades constructed along the boundary of a field, park, yard, or another place for the purpose of defending from intruders, marking boudnaries, or keeping livestock or people within."""@en;
+  skos:exactMatch aat:300005044;
+  skos:prefLabel "zaun"@de;
+  skos:prefLabel "clôture"@fr;
+  skos:prefLabel "omheining"@nl;
+  skos:altLabel "hek"@nl;
+  skos:altLabel "enclosure"@en;
+  skos:prefLabel "fence"@en;
+  skos:inScheme dccd:objectElementType.
 
 ##############################################################
 # Following entries are missing any sort of AAT match
 ##############################################################
-# NONE FOUND! 
+dccd:2d15ae1e-a5e0-11e6-8712-ffbe85cf9e3f rdf:type skos:Concept;
+  skos:scopeNote """A spar along the bottom edge of a sail that improves control"""@en;
+  skos:prefLabel "boom"@en;
+  skos:prefLabel "bôme"@fr;
+  skos:prefLabel "boom"@nl;
+  skos:prefLabel "boom"@de;
+  skos:inScheme dccd:objectElementType.
 
 ##############################################################
 # Following entries need further checking by content specialists
 ##############################################################
-# NONE FOUND! 
+dccd:6378354e-a5e5-11e6-8712-efb762127ac8 rdf:type skos:Concept;
+  skos:scopeNote """Timber used on the riverside to maintain banks of river"""@en;
+  skos:broadMatch aat:300078053;
+  skos:prefLabel "Beschoeiing (rivieroever)"@nl;
+  skos:prefLabel "Sheet piling"@en;
+  skos:prefLabel "spundwand"@de;
+  skos:prefLabel "palée"@fr;
+  skos:altLabel "beschoeiing (wand)"@nl;
+  skos:inScheme dccd:objectElementType.
+dccd:94a8ee8c-a5f0-11e6-8712-cfb8468dde56 rdf:type skos:Concept;
+  skos:scopeNote """Top portion of a door frame"""@en;
+  skos:prefLabel "door head"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:03fbf378-a5e8-11e6-8712-af9980291334 rdf:type skos:Concept;
+  skos:scopeNote """Rod used in haystack"""@en;
+  skos:broadMatch aat:300233315;
+  skos:prefLabel "roede (hooiberg)"@nl;
+  skos:prefLabel "rod (haystack)"@en;
+  skos:inScheme dccd:objectElementType.
+dccd:44e3b09c-a5f2-11e6-8712-a7bac5ca0a31 rdf:type skos:Concept;
+  skos:scopeNote """Elaborations constructed over or around burial sites"""@en;
+  skos:exactMatch aat:300005926;
+  skos:prefLabel "tomb"@en;
+  skos:prefLabel "tombeau"@fr;
+  skos:inScheme dccd:objectElementType.
+dccd:06d93856-a5fe-11e6-8712-af32f1239f01 rdf:type skos:Concept;
+  skos:scopeNote """Cut feature through which water flows"""@en;
+  skos:closeMatch aat:300008769;
+  skos:prefLabel "geul"@nl;
+  skos:altLabel "channel"@en;
+  skos:prefLabel "gully"@en;
+  skos:prefLabel "rigole"@fr;
+  skos:prefLabel "gully"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:b6289580-a5ff-11e6-8712-5398d76402e3 rdf:type skos:Concept;
+  skos:scopeNote """Statue of the Virgin Mary"""@en;
+  skos:broadMatch aat:300047600;
+  skos:prefLabel "Statue of the Virgin Mary"@en;
+  skos:prefLabel "Mariabeeld"@nl;
+  skos:prefLabel "Madone"@fr;
+  skos:prefLabel "Marienstatue"@de;
+  skos:inScheme dccd:objectElementType.
+dccd:71e3bf14-a602-11e6-8712-dbf852bf063e rdf:type skos:Concept;
+  skos:scopeNote """Low walls, projecting from the edge of platforms, terraces, or roofs, or surmounting the cornices of a building; also, walls forming the uppermost part of defensive walls or ramparts"""@en;
+  skos:exactMatch aat:300002717;
+  skos:prefLabel "parapet"@en;
+  skos:prefLabel "parapet"@fr;
+  skos:altLabel "parapet herpe"@fr;
+  skos:altLabel "head parapet"@en;
+  skos:prefLabel "galjoensreling"@nl;
+  skos:prefLabel "galionsgelängder"@de;
+  skos:inScheme dccd:objectElementType.
 
 ##############################################################
 # Concepts with no scope notes 
