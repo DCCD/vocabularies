@@ -15,4 +15,6 @@
  Such terms will not have a normalid and thus should be matched using a simple text match with the term
  field. There will no doubt be a handful of terms in the DCCD that require manual mapping to the new 
  vocabulary.
-  
+ 
+ Please note that due to the way vocabularies are structured in TRiDaBASE the table contains terms from 
+ all TRiDaS dictionaries, not just object/element types that we are interested in here.
