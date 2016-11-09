@@ -48,11 +48,11 @@ Using the *prefLabel* of the language originally used (in this case en), and the
 
 ```xml
   <tridas:type lang="en" 
-    normal="Military camp" 
+    normal="military camp" 
     normalId="a7a268ac-6b80-11e5-ab6a-8bd9b38f7f29" 
     normalStd="tridas.org/vocabularies/objectelement.type.ttl">Legerplaats</tridas:type>
 ```  
-The normalStd field should contain an identifier for the vocabulary being used.  I'm suggesting here using the URI of the Turtle file on the tridas.org server, but I'm open to other suggestions.  Upgrading the tag structure to full Linked Open Data should be on the agenda for the next iteration of TRiDaS.
+The *normalStd* field should contain an identifier for the vocabulary being used.  I'm suggesting here using the URI of the Turtle file on the tridas.org server, but I'm open to other suggestions.  Upgrading the tag structure to full Linked Open Data should be on the agenda for the next iteration of TRiDaS.
   
 
 
