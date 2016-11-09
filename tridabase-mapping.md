@@ -1,4 +1,5 @@
-# NOTES -  Peter Brewer - 8th Nov 2016 
+# Mapping Notes
+**Peter Brewer**
 
  The tridabase-mapping.csv table can be used as a mapping between the original DCCD object/element type
  dictionary with the new DCCD/ARIADNE controlled vocabulary.  The list is based upon the 
@@ -17,20 +18,20 @@
  vocabulary.
  
  Please note that due to the way vocabularies are structured in TRiDaBASE the table contains terms from 
- all TRiDaS dictionaries, not just object/element types that we are interested in here.
+ all TRiDaS dictionaries, not just the object/element types that we are interested in here.
  
 ## Using the mapping
  
- Here is an example of TRiDaS XML code from DCCD (originating from TRiDaBASE:
+Here is an example of TRiDaS XML code from DCCD (originating from TRiDaBASE:
  ```xml
   <tridas:type lang="en" normal="Military camp" normalId="367" normalStd="DCCD">Legerplaats</tridas:type>
  ```
  
- In this example the term has been standardised into English but with a Dutch translation in the tag.  As per the TRiDaS standard, the value of the tag is there for convenience and should be ignored.  It's the lang, normal, normalId, and NormalStd attributes of the tag that are important.  
+In this example the term has been standardised into English but with a Dutch translation in the tag.  As per the TRiDaS standard, the value of the tag is there for convenience and should be ignored.  It's the *lang, normal, normalId,* and *NormalStd* attributes of the tag that are important.  
  
- Doing a lookup of lang="en" normalId="367" and term="Military camp" in the tridabase-mapping.csv table gives us a conceptuuid of {A7A268AC-6B80-11E5-AB6A-8BD9B38F7F29}
+Doing a lookup of *lang="en" normalId="367"* and *term="Military camp"* in the tridabase-mapping.csv table gives us a *conceptuuid* of {A7A268AC-6B80-11E5-AB6A-8BD9B38F7F29}
  
- This UUID can be used to lookup the correct concept in the full SKOS vocabulary:
+This UUID can be used to lookup the correct concept in the full SKOS vocabulary:
  
  ```skos
  dccd:a7a268ac-6b80-11e5-ab6a-8bd9b38f7f29 rdf:type skos:Concept;
@@ -43,7 +44,7 @@
 skos:inScheme dccd:objectElementType.
 ```
 
-Using the prefLabel of the language originally used (in this case en), and the original tag value for convenience (in this case Legerplaats) we can then create a new TRiDaS tag as follows:
+Using the *prefLabel* of the language originally used (in this case en), and the original tag value for convenience (in this case Legerplaats) we can then create a new TRiDaS tag as follows:
 
 ```xml
   <tridas:type lang="en" 
